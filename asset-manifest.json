@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.d992128f.css",
-    "main.js": "/static/js/main.f8d10fa0.js",
-    "static/media/2022.JPG": "/static/media/2022.7a51d2a89c2e8ce47f45.JPG",
-    "static/media/t3.JPG": "/static/media/t3.9c7a47beabf5db93ad77.JPG",
-    "static/media/DSC03671.JPG": "/static/media/DSC03671.865542b83c227da66fea.JPG",
-    "static/media/DSC07358.JPG": "/static/media/DSC07358.bd456a64a7ce42927c7f.JPG",
-    "static/media/IMG_7810.JPG": "/static/media/IMG_7810.284cad73f1231db9e6b8.JPG",
-    "static/media/IMG_1095.JPG": "/static/media/IMG_1095.36f5305f4855f85c20a2.JPG",
-    "static/media/t2.JPG": "/static/media/t2.6403a555185a4e2519be.JPG",
-    "static/media/t4.jpg": "/static/media/t4.5fa6aa1a942db87e7e24.jpg",
-    "static/media/IMG_2996.JPG": "/static/media/IMG_2996.0f6fbf080d9b8a2ed31f.JPG",
+    "main.css": "/static/css/main.dfe3e729.css",
+    "main.js": "/static/js/main.1bbedcbb.js",
+    "static/media/2022.JPG": "/static/media/2022.db916f4088b661415c8c.JPG",
+    "static/media/t4.jpg": "/static/media/t4.56048f3ddb8141bc37a0.jpg",
+    "static/media/DSC03671.JPG": "/static/media/DSC03671.0db991b25f6b7a7bb2db.JPG",
+    "static/media/DSC07358.JPG": "/static/media/DSC07358.14a2f5d238930dd60778.JPG",
+    "static/media/t3.JPG": "/static/media/t3.0ea2d1af06dfbffd6e5d.JPG",
+    "static/media/IMG_1095.JPG": "/static/media/IMG_1095.203ca88e7eff0e41e847.JPG",
+    "static/media/IMG_7810.JPG": "/static/media/IMG_7810.d2fe2f68a445542cfbf8.JPG",
+    "static/media/t2.JPG": "/static/media/t2.446934ac0728a53d4c32.JPG",
+    "static/media/IMG_2996.JPG": "/static/media/IMG_2996.519d625484cc358384ba.JPG",
     "static/media/square-purple-1.png": "/static/media/square-purple-1.ed3a5e3801e35e68ab23.png",
     "static/media/2020.jpg": "/static/media/2020.d69fb5a6c38e349bca73.jpg",
     "static/media/square4.png": "/static/media/square4.b0072563cab16ef45d81.png",
@@ -84,7 +84,7 @@
     "static/media/backgroundNextMatches.webp": "/static/media/backgroundNextMatches.56215ed171274c4b61fd.webp"
   },
   "entrypoints": [
-    "static/css/main.d992128f.css",
-    "static/js/main.f8d10fa0.js"
+    "static/css/main.dfe3e729.css",
+    "static/js/main.1bbedcbb.js"
   ]
 }
