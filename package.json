@@ -66,8 +66,8 @@
     "typescript": "4.7.4"
   },
   "scripts": {
-    "predeploy":"npm run start",
-    "deploy": "gh-pages -d start",
+    "predeploy":"npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build && gulp licenses",
     "test": "react-scripts test",
