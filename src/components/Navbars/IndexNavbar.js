@@ -21,12 +21,7 @@ import classnames from "classnames";
 
 // reactstrap components
 import {
-  Button,
   Collapse,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  UncontrolledDropdown,
   NavbarBrand,
   Navbar,
   NavItem,
@@ -34,15 +29,13 @@ import {
   Nav,
   Container,
   Row,
-  Col,
-  UncontrolledTooltip
+  Col
 } from "reactstrap";
 
 export default function IndexNavbar() {
   const [collapseOpen, setCollapseOpen] = React.useState(false);
   const [collapseOut, setCollapseOut] = React.useState("");
   const [color, setColor] = React.useState("navbar-transparent");
-  const [iconTabs, setIconsTabs] = React.useState(1);
   const [textTabs, setTextTabs] = React.useState(4);
   React.useEffect(() => {
     window.addEventListener("scroll", changeColor);
@@ -72,11 +65,6 @@ export default function IndexNavbar() {
   };
   const onCollapseExited = () => {
     setCollapseOut("");
-  };
-  const scrollToDownload = () => {
-    document
-      .getElementById("download-section")
-      .scrollIntoView({ behavior: "smooth" });
   };
   return (
     <Navbar className={"fixed-top " + color} color-on-scroll="100" expand="lg">
