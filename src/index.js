@@ -8,7 +8,6 @@ import "assets/scss/blk-design-system-react.scss";
 import "assets/demo/demo.css";
 
 import Index from "views/Index.js";
-import LandingPage from "views/examples/LandingPage.js";
 import RegisterPage from "views/examples/RegisterPage.js";
 import ProfilePage from "views/examples/ProfilePage.js";
 import R6 from "views/examples/R6.js";
@@ -21,10 +20,11 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <Switch>
-      <Route path="/components" render={(props) => <Index {...props} />} />
+      <Route path="/components"
+       render={(props) => <Index {...props} />} />
       <Route
         path="/equipos"
-        render={(props) => <RegisterPage {...props} />}
+        component={RegisterPage}
       />
       <Route
         path="/sobrenosotros"

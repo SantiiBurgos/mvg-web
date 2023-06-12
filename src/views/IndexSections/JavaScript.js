@@ -55,12 +55,12 @@ const carouselItems = [
     caption: ""
   },
   {
-    src: require("assets/img/t2.JPG"),
+    src: require("assets/img/t2.jpg"),
     altText: "Slide 2",
     caption: ""
   },
   {
-    src: require("assets/img/t3.JPG"),
+    src: require("assets/img/t3.jpg"),
     altText: "Slide 3",
     caption: ""
   }
@@ -93,7 +93,7 @@ export default function JavaScript() {
                 <img
                   alt="..."
                   className="img-fluid floating"
-                  src={require("assets/img/IMG_1095.JPG")}
+                  src={require("assets/img/IMG_1095.jpg")}
                 />
                 
               </Col>

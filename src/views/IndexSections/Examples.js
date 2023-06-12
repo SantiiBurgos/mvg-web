@@ -30,7 +30,7 @@ export default function Examples() {
         
 
         <img
-                  src={require("assets/img/IMG_7810.JPG")}
+                  src={require("assets/img/IMG_7810.jpg")}
                 />
         <hr className="line-primary" />
     <h2 className="textoNoticias">¡La gente enamorada del CM de Malvinas en AGS!</h2>
@@ -41,7 +41,7 @@ export default function Examples() {
 
     <div className="noticia1">
     <img
-                  src={require("assets/img/IMG_2996.JPG")}
+                  src={require("assets/img/IMG_2996.jpg")}
                 />
                 <hr className="line-primary" />
     <h2 className="textoNoticias">¡Campeones del Six Invitational 2022!</h2>
@@ -51,7 +51,7 @@ export default function Examples() {
 
     <div class="noticia1">
     <img
-                  src={require("assets/img/DSC03671.JPG")}
+                  src={require("assets/img/DSC03671.jpg")}
                 />
                 <hr className="line-primary" />
     <h2 className="textoNoticias">¡Campeones de la M4!</h2>

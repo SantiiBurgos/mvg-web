@@ -36,8 +36,10 @@ export default function PageHeader() {
                 src={require("assets/img/v (5).png")}
                 style={{ width: "150px", height: "auto" }}
               />
-          <img className="d-none d-sm-block"
+              <br></br>
+          <img 
                 src={require("assets/img/png color.png")}
+                style={{ width: "250px", height: "auto" }}
                 
               />
 

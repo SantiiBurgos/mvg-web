@@ -113,7 +113,7 @@ export default function ProfilePage() {
                   alt="..."
                   className="img-fluid floating"
                   class="fotito"
-                  src={require("assets/img/DSC07358.JPG")}
+                  src={require("assets/img/DSC07358.jpg")}
                 />
                 
               </Col>
