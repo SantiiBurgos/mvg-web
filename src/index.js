@@ -23,7 +23,7 @@ root.render(
     <Switch>
       <Route path="/components" render={(props) => <Index {...props} />} />
       <Route
-        path="./equipos"
+        path="mvg-web/equipos"
         render={(props) => <RegisterPage {...props} />}
       />
       <Route

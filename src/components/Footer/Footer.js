@@ -49,7 +49,7 @@ export default function Footer() {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/equipos" tag={Link}>
+                <NavLink to="/mvg-web/equipos" tag={Link}>
                   Equipos
                 </NavLink>
               </NavItem>

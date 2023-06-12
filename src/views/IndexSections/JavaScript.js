@@ -167,7 +167,7 @@ export default function JavaScript() {
               <Button
                 className="mt-4"
                 color="primary"
-                href="/equipos"
+                href="/mvg-web/equipos"
               >
                 Equipos
               </Button>

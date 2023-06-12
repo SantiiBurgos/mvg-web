@@ -117,7 +117,7 @@ export default function IndexNavbar() {
                         active: textTabs === 4
                       })}
                       onClick={(e) => setTextTabs(4)}
-                      href="/equipos"
+                      href="/mvg-web/equipos"
                     >
                       Equipos
             </NavLink>
