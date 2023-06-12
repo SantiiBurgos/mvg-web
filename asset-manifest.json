@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mvg-web/static/css/main.04d2e729.css",
-    "main.js": "/mvg-web/static/js/main.9a6f2a53.js",
+    "main.css": "/mvg-web/static/css/main.9e3aeb22.css",
+    "main.js": "/mvg-web/static/js/main.63d60e91.js",
     "static/media/2022.JPG": "/mvg-web/static/media/2022.7a51d2a89c2e8ce47f45.JPG",
     "static/media/t3.JPG": "/mvg-web/static/media/t3.9c7a47beabf5db93ad77.JPG",
     "static/media/DSC03671.JPG": "/mvg-web/static/media/DSC03671.865542b83c227da66fea.JPG",
@@ -12,17 +12,18 @@
     "static/media/t4.jpg": "/mvg-web/static/media/t4.5fa6aa1a942db87e7e24.jpg",
     "static/media/IMG_2996.JPG": "/mvg-web/static/media/IMG_2996.0f6fbf080d9b8a2ed31f.JPG",
     "static/media/square-purple-1.png": "/mvg-web/static/media/square-purple-1.ed3a5e3801e35e68ab23.png",
-    "static/media/lolGrande.webp": "/mvg-web/static/media/lolGrande.dc274140418cda7b4312.webp",
     "static/media/2020.jpg": "/mvg-web/static/media/2020.d69fb5a6c38e349bca73.jpg",
     "static/media/square4.png": "/mvg-web/static/media/square4.b0072563cab16ef45d81.png",
-    "static/media/mlbbGrande.webp": "/mvg-web/static/media/mlbbGrande.953f235eed30bb68ae94.webp",
     "static/media/square1.png": "/mvg-web/static/media/square1.082ea17aaf44aed9868a.png",
     "static/media/square3.png": "/mvg-web/static/media/square3.235ea41b7cee0696448d.png",
     "static/media/square2.png": "/mvg-web/static/media/square2.8ce0f9b6a9f216ada045.png",
     "static/media/square5.png": "/mvg-web/static/media/square5.16283001f5a086113265.png",
     "static/media/darkFoto.png": "/mvg-web/static/media/darkFoto.049a2cd26a85856a45e6.png",
+    "static/media/luizinho.webp": "/mvg-web/static/media/luizinho.c2cfe9775e1ab951b86c.webp",
+    "static/media/viituuu.webp": "/mvg-web/static/media/viituuu.dc03fc15d973b80d72c0.webp",
     "static/media/skarp2.webp": "/mvg-web/static/media/skarp2.ba2aee8f952bffde46fa.webp",
     "static/media/2021.jpg": "/mvg-web/static/media/2021.417581ee82ddc2283f47.jpg",
+    "static/media/guiimap.webp": "/mvg-web/static/media/guiimap.a2970b6dc1f1cee61a95.webp",
     "static/media/kaefe4.webp": "/mvg-web/static/media/kaefe4.752ef04d0c50b1c516eb.webp",
     "static/media/nitro2.webp": "/mvg-web/static/media/nitro2.eaaad95537dfc48a6de5.webp",
     "static/media/ragnar2.webp": "/mvg-web/static/media/ragnar2.2783602920c8121336d0.webp",
@@ -31,6 +32,9 @@
     "static/media/Lyg.webp": "/mvg-web/static/media/Lyg.d5433d2d6e05b31d23ed.webp",
     "static/media/panno2.webp": "/mvg-web/static/media/panno2.759f37fc9cffe679960c.webp",
     "static/media/ripp.png": "/mvg-web/static/media/ripp.c59f60238fbadc39977b.png",
+    "static/media/shuun.webp": "/mvg-web/static/media/shuun.324982dcd2da91b1bd49.webp",
+    "static/media/teex.webp": "/mvg-web/static/media/teex.6f9cb2f65a67ea3ab7ef.webp",
+    "static/media/estarosa.webp": "/mvg-web/static/media/estarosa.1868ac19e30ef8fb7dd1.webp",
     "static/media/nightFoto.png": "/mvg-web/static/media/nightFoto.e6a30d27482b2b409f71.png",
     "static/media/bitcoin.png": "/mvg-web/static/media/bitcoin.47422beaa7310ef04777.png",
     "static/media/zKs.webp": "/mvg-web/static/media/zKs.ce23b3745d189f1afeff.webp",
@@ -59,7 +63,6 @@
     "static/media/path5.png": "/mvg-web/static/media/path5.037b2fcefee2867cd2f5.png",
     "static/media/path3.png": "/mvg-web/static/media/path3.3f66cc18d0e5e2526eb2.png",
     "static/media/cercuri.png": "/mvg-web/static/media/cercuri.05cc0d04cc8cf5ceeb5d.png",
-    "static/media/r6LogoFull.webp": "/mvg-web/static/media/r6LogoFull.975721421d10c3e48a22.webp",
     "static/media/v (5).png": "/mvg-web/static/media/v (5).e6af2728a177d130dad7.png",
     "static/media/png color.png": "/mvg-web/static/media/png color.7437738c869be1001816.png",
     "static/media/nucleo.eot": "/mvg-web/static/media/nucleo.bd5cce8bf40be5947637.eot",
@@ -81,7 +84,7 @@
     "static/media/backgroundNextMatches.webp": "/mvg-web/static/media/backgroundNextMatches.56215ed171274c4b61fd.webp"
   },
   "entrypoints": [
-    "static/css/main.04d2e729.css",
-    "static/js/main.9a6f2a53.js"
+    "static/css/main.9e3aeb22.css",
+    "static/js/main.63d60e91.js"
   ]
 }
