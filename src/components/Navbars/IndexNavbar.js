@@ -95,7 +95,7 @@ export default function IndexNavbar() {
             <Row>
               <Col className="collapse-brand" xs="6">
                 <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                  BLK•React
+                  MVG
                 </a>
               </Col>
               <Col className="collapse-close text-right" xs="6">
@@ -117,7 +117,7 @@ export default function IndexNavbar() {
                         active: textTabs === 4
                       })}
                       onClick={(e) => setTextTabs(4)}
-                      href="/mvg-web/equipos"
+                      href="/equipos"
                     >
                       Equipos
             </NavLink>

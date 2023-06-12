@@ -34,10 +34,11 @@ export default function PageHeader() {
         <div className="content-center brand">
         <img
                 src={require("assets/img/v (5).png")}
-                style={{ width: "150px" }}
+                style={{ width: "150px", height: "auto" }}
               />
           <img className="d-none d-sm-block"
                 src={require("assets/img/png color.png")}
+                
               />
 
         </div>

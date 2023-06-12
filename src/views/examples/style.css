@@ -6,6 +6,32 @@
   margin: 0;
   box-sizing: border-box;
 }
+.slider-container {
+}
+.textoNoticias{
+  display: block;
+}
+
+.sliderNoticias {
+  width: 100%;
+}
+
+/* Reglas de estilo adicionales según el tamaño de la pantalla */
+@media (max-width: 768px) {
+  .sliderNoticias {
+    flex-direction: column;
+  }
+  .textoNoticias{
+    display: none;
+  }
+}
+
+@media (min-width: 769px) {
+  .sliderNoticias {
+    /* Estilos para pantallas grandes */
+  }
+}
+
 
 .noticia1{
   margin-right: 10px;
@@ -280,7 +306,7 @@
   align-items: center;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: auto;
+  margin-bottom: 25px;
 }
 
 /* .perfil-contenedor:hover */
@@ -365,6 +391,69 @@
 }
 
 .perfil-contenedorLol5 {
+  width: 200px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: rgba(39, 39, 39, 0.14) 0px 5px 20px;
+  border-radius: 9px;
+  transition: 1s all ease;
+}
+
+.perfil-contenedorM1 {
+  width: 200px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: rgba(39, 39, 39, 0.14) 0px 5px 20px;
+  border-radius: 9px;
+  transition: 1s all ease;
+}
+
+.perfil-contenedorM2 {
+  width: 200px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: rgba(39, 39, 39, 0.14) 0px 5px 20px;
+  border-radius: 9px;
+  transition: 1s all ease;
+}
+
+.perfil-contenedorM3 {
+  width: 200px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: rgba(39, 39, 39, 0.14) 0px 5px 20px;
+  border-radius: 9px;
+  transition: 1s all ease;
+}
+
+.perfil-contenedorM4 {
+  width: 200px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: rgba(39, 39, 39, 0.14) 0px 5px 20px;
+  border-radius: 9px;
+  transition: 1s all ease;
+}
+
+.perfil-contenedorM5 {
+  width: 200px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: rgba(39, 39, 39, 0.14) 0px 5px 20px;
+  border-radius: 9px;
+  transition: 1s all ease;
+}
+
+.perfil-contenedorM6 {
+  width: 200px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: rgba(39, 39, 39, 0.14) 0px 5px 20px;
+  border-radius: 9px;
+  transition: 1s all ease;
+}
+
+.perfil-contenedorM7 {
   width: 200px;
   position: relative;
   overflow: hidden;
@@ -502,6 +591,96 @@
   transition: all 0.5s ease-in;
 }
 
+.perfil-contenedorM1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("assets/img/teex.webp") no-repeat center center/cover;
+  z-index: -1;
+  opacity: 1;
+  transition: all 0.5s ease-in;
+}
+
+.perfil-contenedorM2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("assets/img/viituuu.webp") no-repeat center center/cover;
+  z-index: -1;
+  opacity: 1;
+  transition: all 0.5s ease-in;
+}
+
+.perfil-contenedorM3::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("assets/img/zKs.webp") no-repeat center center/cover;
+  z-index: -1;
+  opacity: 1;
+  transition: all 0.5s ease-in;
+}
+
+.perfil-contenedorM4::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("assets/img/shuun.webp") no-repeat center center/cover;
+  z-index: -1;
+  opacity: 1;
+  transition: all 0.5s ease-in;
+}
+
+.perfil-contenedorM5::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("assets/img/luizinho.webp") no-repeat center center/cover;
+  z-index: -1;
+  opacity: 1;
+  transition: all 0.5s ease-in;
+}
+
+.perfil-contenedorM6::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("assets/img/guiimap.webp") no-repeat center center/cover;
+  z-index: -1;
+  opacity: 1;
+  transition: all 0.5s ease-in;
+}
+
+.perfil-contenedorM7::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("assets/img/estarosa.webp") no-repeat center center/cover;
+  z-index: -1;
+  opacity: 1;
+  transition: all 0.5s ease-in;
+}
 
 .perfil-contenedor:hover:before {
   opacity: 0;
@@ -552,6 +731,42 @@
   opacity: 0;
   transition: all 0.5s ease;
 }
+
+.perfil-contenedorM1:hover:before {
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.perfil-contenedorM2:hover:before {
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.perfil-contenedorM3:hover:before {
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.perfil-contenedorM4:hover:before {
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.perfil-contenedorM5:hover:before {
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.perfil-contenedorM6:hover:before {
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.perfil-contenedorM7:hover:before {
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
 
 /* perfil carta Wrapper */
 .perfil-wrapper {
@@ -675,6 +890,69 @@
   transform: skew(30deg) translateX(-125%);
   background: linear-gradient(to right, #00adde 0%, #00adde 100%);
 }
+
+.perfil-contenedorM1:hover .perfil-wrapper::after {
+  transform: skew(30deg) translateX(125%);
+  background: linear-gradient(to right, #00adde 0%, #00adde 100%);
+}
+.perfil-contenedorM1:hover .perfil-wrapper::before {
+  transform: skew(30deg) translateX(-125%);
+  background: linear-gradient(to right, #00adde 0%, #00adde 100%);
+}
+
+.perfil-contenedorM2:hover .perfil-wrapper::after {
+  transform: skew(30deg) translateX(125%);
+  background: linear-gradient(to right, #00adde 0%, #00adde 100%);
+}
+.perfil-contenedorM2:hover .perfil-wrapper::before {
+  transform: skew(30deg) translateX(-125%);
+  background: linear-gradient(to right, #00adde 0%, #00adde 100%);
+}
+
+.perfil-contenedorM3:hover .perfil-wrapper::after {
+  transform: skew(30deg) translateX(125%);
+  background: linear-gradient(to right, #00adde 0%, #00adde 100%);
+}
+.perfil-contenedorM3:hover .perfil-wrapper::before {
+  transform: skew(30deg) translateX(-125%);
+  background: linear-gradient(to right, #00adde 0%, #00adde 100%);
+}
+
+.perfil-contenedorM4:hover .perfil-wrapper::after {
+  transform: skew(30deg) translateX(125%);
+  background: linear-gradient(to right, #00adde 0%, #00adde 100%);
+}
+.perfil-contenedorM4:hover .perfil-wrapper::before {
+  transform: skew(30deg) translateX(-125%);
+  background: linear-gradient(to right, #00adde 0%, #00adde 100%);
+}
+
+.perfil-contenedorM5:hover .perfil-wrapper::after {
+  transform: skew(30deg) translateX(125%);
+  background: linear-gradient(to right, #00adde 0%, #00adde 100%);
+}
+.perfil-contenedorM5:hover .perfil-wrapper::before {
+  transform: skew(30deg) translateX(-125%);
+  background: linear-gradient(to right, #00adde 0%, #00adde 100%);
+}
+
+.perfil-contenedorM6:hover .perfil-wrapper::after {
+  transform: skew(30deg) translateX(125%);
+  background: linear-gradient(to right, #00adde 0%, #00adde 100%);
+}
+.perfil-contenedorM6:hover .perfil-wrapper::before {
+  transform: skew(30deg) translateX(-125%);
+  background: linear-gradient(to right, #00adde 0%, #00adde 100%);
+}
+
+.perfil-contenedorM7:hover .perfil-wrapper::after {
+  transform: skew(30deg) translateX(125%);
+  background: linear-gradient(to right, #00adde 0%, #00adde 100%);
+}
+.perfil-contenedorM7:hover .perfil-wrapper::before {
+  transform: skew(30deg) translateX(-125%);
+  background: linear-gradient(to right, #00adde 0%, #00adde 100%);
+}
 /* perfil carta */
 .perfil-carta {
   width: 100%;
@@ -746,6 +1024,48 @@
 }
 
 .perfil-contenedorLol5:hover .perfil-carta {
+  opacity: 1;
+  transition: all 0.6s ease;
+  transition-delay: 0.2s;
+}
+
+.perfil-contenedorM1:hover .perfil-carta {
+  opacity: 1;
+  transition: all 0.6s ease;
+  transition-delay: 0.2s;
+}
+
+.perfil-contenedorM2:hover .perfil-carta {
+  opacity: 1;
+  transition: all 0.6s ease;
+  transition-delay: 0.2s;
+}
+
+.perfil-contenedorM3:hover .perfil-carta {
+  opacity: 1;
+  transition: all 0.6s ease;
+  transition-delay: 0.2s;
+}
+
+.perfil-contenedorM4:hover .perfil-carta {
+  opacity: 1;
+  transition: all 0.6s ease;
+  transition-delay: 0.2s;
+}
+
+.perfil-contenedorM5:hover .perfil-carta {
+  opacity: 1;
+  transition: all 0.6s ease;
+  transition-delay: 0.2s;
+}
+
+.perfil-contenedorM6:hover .perfil-carta {
+  opacity: 1;
+  transition: all 0.6s ease;
+  transition-delay: 0.2s;
+}
+
+.perfil-contenedorM7:hover .perfil-carta {
   opacity: 1;
   transition: all 0.6s ease;
   transition-delay: 0.2s;

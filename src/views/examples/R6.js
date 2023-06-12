@@ -1,20 +1,4 @@
-/*!
 
-=========================================================
-* BLK Design System React - v1.2.1
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/blk-design-system-react
-* Copyright 2022 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/blk-design-system-react/blob/main/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
 import classnames from "classnames";
 import './styles.css';
@@ -84,11 +68,10 @@ export default function R6() {
   return (
     <>
       <ExamplesNavbar />
-      <div className="wrapper">
-        <div className="page-header">
-          <div className="page-header-image" />
-          <div className="content">
-            
+      <br></br><br></br>
+      <h1>RAINBOW SIX</h1>
+      <br></br><hr className="line-primary" style={{ width: '5%', margin: '0 auto' }}/>
+
           <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -99,8 +82,6 @@ export default function R6() {
     />
 
 
-      <img src={require("assets/img/r6LogoFull.webp")}
-          width={200} />
       
       <div class="list">
         
@@ -199,12 +180,10 @@ export default function R6() {
 
         
 
-    </div>
-           
-          </div>
-        </div>
-        <Footer />
+
+        
       </div>
+      <Footer />
     </>
   );
 }

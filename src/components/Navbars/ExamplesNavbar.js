@@ -97,7 +97,7 @@ export default function ExamplesNavbar() {
             <Row>
               <Col className="collapse-brand" xs="6">
                 <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                  BLK•React
+                  MVG
                 </a>
               </Col>
               <Col className="collapse-close text-right" xs="6">

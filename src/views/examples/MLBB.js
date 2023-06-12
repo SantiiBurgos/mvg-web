@@ -1,20 +1,4 @@
-/*!
 
-=========================================================
-* BLK Design System React - v1.2.1
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/blk-design-system-react
-* Copyright 2022 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/blk-design-system-react/blob/main/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
 import classnames from "classnames";
 import './styles.css';
@@ -81,10 +65,9 @@ export default function MLBB() {
   return (
     <>
       <ExamplesNavbar />
-      <div className="wrapper">
-        <div className="page-header">
-          <div className="page-header-image" />
-          <div className="content">
+      <br></br><br></br>
+      <h1>MOBILE LEGENDS</h1>
+      <br></br><hr className="line-primary" style={{ width: '5%', margin: '0 auto' }}/>
             
           <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -96,19 +79,18 @@ export default function MLBB() {
     />
 
 
-      <img src={require("assets/img/mlbbGrande.webp")}
-          width={200} />
+  
       
-      <div class="list">
+      <div class="list2">
         
       <div class="contenedor">
-        <div class="perfil-contenedor2">
+        <div class="perfil-contenedorM1">
           <div class="perfil-wrapper effect-wrap">
             <div class="perfil-carta">
               <img src={require("assets/img/Flag_of_Brazil.svg.webp")} />
 
-              <h2>kaefx</h2>
-              <h4>Lautaro Sanchez</h4>
+              <h2>teex</h2>
+              <h4>-</h4>
 
               <div class="icons">
                 <i class="bx bxl-twitter"></i>
@@ -120,13 +102,13 @@ export default function MLBB() {
       </div>
 
       <div class="contenedor">
-        <div class="perfil-contenedor2">
+        <div class="perfil-contenedorM2">
           <div class="perfil-wrapper effect-wrap">
             <div class="perfil-carta">
               <img src={require("assets/img/Flag_of_Brazil.svg.webp")} />
 
-              <h2>kaefx</h2>
-              <h4>Lautaro Sanchez</h4>
+              <h2>vitu</h2>
+              <h4>-</h4>
 
               <div class="icons">
                 <i class="bx bxl-twitter"></i>
@@ -137,34 +119,17 @@ export default function MLBB() {
       </div>
       </div>
 
+      
+
       <div class="contenedor">
-        <div class="perfil-contenedor3">
+        <div class="perfil-contenedorM4">
           <div class="perfil-wrapper effect-wrap">
             
             <div class="perfil-carta">
               <img src={require("assets/img/Flag_of_Brazil.svg.webp")} />
 
-              <h2>Skarp</h2>
-              <h4>Hernán Burrelo</h4>
-
-              <div class="icons">
-                <i class="bx bxl-twitter"></i>
-                <i class="bx bxl-instagram"></i>
-              </div>
-            </div>
-        </div>
-      </div>
-      </div>
-
-      <div class="contenedor">
-        <div class="perfil-contenedor4">
-          <div class="perfil-wrapper effect-wrap">
-            
-            <div class="perfil-carta">
-              <img src={require("assets/img/Flag_of_Brazil.svg.webp")} />
-
-              <h2>panno9</h2>
-              <h4>Franco Panno</h4>
+              <h2>shuun</h2>
+              <h4>-</h4>
 
               <div class="icons">
                 <i class="bx bxl-twitter"></i>
@@ -179,14 +144,14 @@ export default function MLBB() {
       <div class="list2">
 
       <div class="contenedor">
-        <div class="perfil-contenedor5">
+        <div class="perfil-contenedorM5">
           <div class="perfil-wrapper effect-wrap">
             
             <div class="perfil-carta">
               <img src={require("assets/img/Flag_of_Brazil.svg.webp")} />
 
-              <h2>Ragn4r</h2>
-              <h4>Ivan Dal Molin</h4>
+              <h2>luizinho</h2>
+              <h4>-</h4>
 
               <div class="icons">
                 <i class="bx bxl-twitter"></i>
@@ -198,14 +163,14 @@ export default function MLBB() {
       </div>
 
       <div class="contenedor">
-        <div class="perfil-contenedor">
+        <div class="perfil-contenedorM6">
           <div class="perfil-wrapper effect-wrap">
             
             <div class="perfil-carta">
               <img src={require("assets/img/Flag_of_Brazil.svg.webp")} />
 
-              <h2>NiTRX</h2>
-              <h4>Emiliano Garay</h4>
+              <h2>guiimap</h2>
+              <h4>-</h4>
 
               <div class="icons">
                 <i class="bx bxl-twitter"></i>
@@ -217,14 +182,14 @@ export default function MLBB() {
       </div>
 
       <div class="contenedor">
-        <div class="perfil-contenedor">
+        <div class="perfil-contenedorM7">
           <div class="perfil-wrapper effect-wrap">
             
             <div class="perfil-carta">
               <img src={require("assets/img/Flag_of_Brazil.svg.webp")} />
 
-              <h2>NiTRX</h2>
-              <h4>Emiliano Garay</h4>
+              <h2>estarosa</h2>
+              <h4>-</h4>
 
               <div class="icons">
                 <i class="bx bxl-twitter"></i>
@@ -240,12 +205,10 @@ export default function MLBB() {
 
         
 
+
+       
       </div>
-           
-          </div>
-        </div>
-        <Footer />
-      </div>
+      <Footer />
     </>
   );
 }

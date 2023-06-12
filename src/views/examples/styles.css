@@ -32,6 +32,8 @@ h1 {
   justify-content: center;
   margin-left: 10%;
   margin-right: 10%;
+  padding: 4.8rem 0;
+  
 }
 .list > .product {
   width: 255px;
@@ -45,7 +47,8 @@ background: radial-gradient(circle, #1c252c 0%, rgb(15, 15, 15) 96%);
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
     rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
   position: relative;
-  transition: 0.3s;
+  transition: 0.3s; 
+  
 }
 
 .list2 > .product {

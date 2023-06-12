@@ -1,20 +1,3 @@
-/*!
-
-=========================================================
-* BLK Design System React - v1.2.1
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/blk-design-system-react
-* Copyright 2022 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/blk-design-system-react/blob/main/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
 import classnames from "classnames";
 import './styles.css';
@@ -84,10 +67,9 @@ export default function LOL() {
   return (
     <>
       <ExamplesNavbar />
-      <div className="wrapper">
-        <div className="page-header">
-          <div className="page-header-image" />
-          <div className="content">
+      <br></br><br></br>
+      <h1>LEAGUE OF LEGENDS</h1>
+      <br></br><hr className="line-primary" style={{ width: '5%', margin: '0 auto' }}/>
             
           <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -98,9 +80,6 @@ export default function LOL() {
       rel="stylesheet"
     />
 
-
-      <img src={require("assets/img/lolGrande.webp")}
-          width={200} />
       
       <div class="list">
         
@@ -202,13 +181,8 @@ export default function LOL() {
 
 
         
-
-    </div>
-           
-          </div>
         </div>
         <Footer />
-      </div>
     </>
   );
 }

@@ -49,7 +49,7 @@ export default function Footer() {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/mvg-web/equipos" tag={Link}>
+                <NavLink to="/equipos" tag={Link}>
                   Equipos
                 </NavLink>
               </NavItem>
@@ -63,12 +63,13 @@ export default function Footer() {
           <Col md="3">
             <Nav>
               <NavItem>
-                <NavLink href="https://creative-tim.com/about-us?ref=blkdsr-footer">
+                <NavLink href="https://listado.mercadolibre.com.ar/_CustId_246855103?item_id=MLA1116058159&category_id=MLA7093&seller_id=246855103&client=recoview-selleritems&recos_listing=true"
+>
                   Tienda
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="src/assets/img/manual.pdf" download="manual.pdf">
+                <NavLink href="https://drive.google.com/file/d/11qF87k8MDN3ppagI8JHqt1Qh6ac99mR3/view?usp=drive_link">
                   Manual de marca
                 </NavLink>
               </NavItem>
@@ -76,8 +77,9 @@ export default function Footer() {
             </Nav>
           </Col>
           <Col md="3">
-            <h3 className="title">Seguinos</h3>
+            
             <div className="btn-wrapper profile">
+            <h3 className="title">Seguinos</h3>
               <Button
                 className="btn-icon btn-neutral btn-round btn-simple"
                 color="default"

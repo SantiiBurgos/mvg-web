@@ -80,10 +80,6 @@ export default function RegisterPage() {
   return (
     <>
       <ExamplesNavbar />
-      <div className="wrapper">
-        <div className="page-header">
-          <div className="page-header-image" />
-          <div className="content">
             
 
 
@@ -153,10 +149,8 @@ export default function RegisterPage() {
 
 
            
-          </div>
-        </div>
-        <Footer />
-      </div>
+
+      <Footer />
     </>
   );
 }
