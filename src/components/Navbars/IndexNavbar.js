@@ -70,7 +70,7 @@ export default function IndexNavbar() {
     <Navbar className={"fixed-top " + color} color-on-scroll="100" expand="lg">
       <Container>
         <div className="navbar-translate">
-          <NavbarBrand to="/" tag={Link} id="navbar-brand">
+          <NavbarBrand to="/inicio" tag={Link} id="navbar-brand">
             <span>MVG • </span>
             Malvinas Gaming
           </NavbarBrand>
@@ -94,7 +94,7 @@ export default function IndexNavbar() {
           <div className="navbar-collapse-header">
             <Row>
               <Col className="collapse-brand" xs="6">
-                <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                <a href="/" onClick={(e) => e.preventDefault()}>
                   MVG
                 </a>
               </Col>
@@ -112,25 +112,13 @@ export default function IndexNavbar() {
           <Nav navbar>
 
           <NavItem>
-            <NavLink
-                      className={classnames({
-                        active: textTabs === 4
-                      })}
-                      onClick={(e) => setTextTabs(4)}
-                      href="/equipos"
-                    >
+          <NavLink to="/equipos" tag={Link}>
                       Equipos
             </NavLink>
           </NavItem>
 
           <NavItem>
-            <NavLink
-                      className={classnames({
-                        active: textTabs === 4
-                      })}
-                      onClick={(e) => setTextTabs(4)}
-                      href="/sobrenosotros"
-                    >
+          <NavLink to="/sobrenosotros" tag={Link}>
                       Sobre nosotros
             </NavLink>
           </NavItem>

@@ -54,7 +54,7 @@ export default function Footer() {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/register-page" tag={Link}>
+                <NavLink to="/sobrenosotros" tag={Link}>
                   Sobre Nosotros
                 </NavLink>
               </NavItem>
