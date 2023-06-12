@@ -23,23 +23,23 @@ root.render(
     <Switch>
       <Route path="/components" render={(props) => <Index {...props} />} />
       <Route
-        path="/equipos"
+        path="./equipos"
         render={(props) => <RegisterPage {...props} />}
       />
       <Route
-        path="/sobrenosotros"
+        path="./sobrenosotros"
         render={(props) => <ProfilePage {...props} />}
       />
       <Route
-        path="/r6"
+        path="./r6"
         render={(props) => <R6 {...props} />}
       />
       <Route
-        path="/mlbb"
+        path="./mlbb"
         render={(props) => <MLBB {...props} />}
       />
       <Route
-        path="/lol"
+        path="./lol"
         render={(props) => <LOL {...props} />}
       />
     </Switch>
