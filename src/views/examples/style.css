@@ -1,0 +1,856 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.noticia1{
+  margin-right: 10px;
+  scale: 90%;
+  transition: ease-in-out 0.5s;
+}
+
+.noticia1:hover {
+  transform: scale(1.08);
+  transition: ease-in-out 0.5s;
+}
+
+.fotito{
+  transition: ease-in-out 0.5s;
+}
+
+.fotito:hover {
+  transform: scale(1.08);
+  transition: ease-in-out 0.5s;
+}
+
+.cardLogros {
+  background: url("assets/img/2016.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 4em 0 0 0;
+  border-radius: 1rem;
+  overflow: hidden;
+  transition: ease-in-out 0.5s;
+  box-shadow: rgba(25, 25, 26, 0.5) 0px 7px 24px 0px;
+  transform: scale(0.4);
+  height: 85vh;
+  
+}
+
+.cardLogros2 {
+  background: url("assets/img/2017.jpg");
+  background-size: cover;
+  background-position: center;
+  
+  background-repeat: no-repeat;
+  padding: 4em 0 0 0;
+  border-radius: 1rem;
+  overflow: hidden;
+  transition: ease-in-out 0.5s;
+  box-shadow: rgba(25, 25, 26, 0.5) 0px 7px 24px 0px;
+  transform: scale(0.4);
+  height: 85vh;
+}
+.cardLogros3 {
+  background: url("assets/img/2018.jpg");
+  background-size: cover;
+  background-position: center;
+  
+  background-repeat: no-repeat;
+  padding: 4em 0 0 0;
+  border-radius: 1rem;
+  overflow: hidden;
+  transition: ease-in-out 0.5s;
+  box-shadow: rgba(25, 25, 26, 0.5) 0px 7px 24px 0px;
+  transform: scale(0.4);
+  height: 85vh;
+}
+.cardLogros4 {
+  background: url("assets/img/2019.jpg");
+  background-size: cover;
+  background-position: center;
+  
+  background-repeat: no-repeat;
+  padding: 4em 0 0 0;
+  border-radius: 1rem;
+  overflow: hidden;
+  transition: ease-in-out 0.5s;
+  box-shadow: rgba(25, 25, 26, 0.5) 0px 7px 24px 0px;
+  transform: scale(0.4);
+  height: 85vh;
+}
+.cardLogros5 {
+  background: url("assets/img/2020.jpg");
+  background-size: cover;
+  background-position: center;
+  
+  background-repeat: no-repeat;
+  padding: 4em 0 0 0;
+  border-radius: 1rem;
+  overflow: hidden;
+  transition: ease-in-out 0.5s;
+  box-shadow: rgba(25, 25, 26, 0.5) 0px 7px 24px 0px;
+  transform: scale(0.4);
+  height: 85vh;
+}
+.cardLogros6 {
+  background: url("assets/img/2021.jpg");
+  background-size: cover;
+  background-position: center;
+  
+  background-repeat: no-repeat;
+  padding: 4em 0 0 0;
+  border-radius: 1rem;
+  overflow: hidden;
+  transition: ease-in-out 0.5s;
+  box-shadow: rgba(25, 25, 26, 0.5) 0px 7px 24px 0px;
+  transform: scale(0.4);
+  height: 85vh;
+}
+.cardLogros7 {
+  background: url("assets/img/2022.JPG");
+  background-size: cover;
+  background-position: center;
+  
+  background-repeat: no-repeat;
+  padding: 4em 0 0 0;
+  border-radius: 1rem;
+  overflow: hidden;
+  transition: ease-in-out 0.5s;
+  box-shadow: rgba(25, 25, 26, 0.5) 0px 7px 24px 0px;
+  transform: scale(0.4);
+  height: 85vh;
+}
+
+.cardLogros-content {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.2) 10%,
+    rgba(0, 0, 0, 0.4) 20%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  padding: 1.8em 2em;
+  color: var(--white);
+  transform: translateY(24em);
+  transition: ease-in-out 0.5s;
+  height: 100%;
+}
+
+.cardLogros-titel {
+  position: relative;
+  z-index: 2;
+  font-size: 2rem;
+}
+.cardLogros-description {
+  font-size: 0.8419rem;
+  color: #eeecec;
+  line-height: 2.3rem;
+  margin-bottom: 1.2rem;
+  letter-spacing: 1px;
+}
+.cardLogros:hover {
+  transform: scale(1.01);
+  box-shadow: rgba(22, 22, 22, 0.4) 0px 7px 20px 0px;
+}
+.cardLogros:hover .cardLogros-titel::after {
+  transform: translateX(-10%);
+}
+.cardLogros:hover .cardLogros-content {
+  transform: translateY(0);
+}
+
+.cardLogros2:hover {
+  transform: scale(1.01);
+  box-shadow: rgba(22, 22, 22, 0.4) 0px 7px 20px 0px;
+}
+.cardLogros2:hover .cardLogros-titel::after {
+  transform: translateX(-10%);
+}
+.cardLogros2:hover .cardLogros-content {
+  transform: translateY(0);
+}
+
+.cardLogros3:hover {
+  transform: scale(1.01);
+  box-shadow: rgba(22, 22, 22, 0.4) 0px 7px 20px 0px;
+}
+.cardLogros3:hover .cardLogros-titel::after {
+  transform: translateX(-10%);
+}
+.cardLogros3:hover .cardLogros-content {
+  transform: translateY(0);
+}
+
+.cardLogros4:hover {
+  transform: scale(1.01);
+  box-shadow: rgba(22, 22, 22, 0.4) 0px 7px 20px 0px;
+}
+.cardLogros4:hover .cardLogros-titel::after {
+  transform: translateX(-10%);
+}
+.cardLogros4:hover .cardLogros-content {
+  transform: translateY(0);
+}
+
+.cardLogros5:hover {
+  transform: scale(1.01);
+  box-shadow: rgba(22, 22, 22, 0.4) 0px 7px 20px 0px;
+}
+.cardLogros5:hover .cardLogros-titel::after {
+  transform: translateX(-10%);
+}
+.cardLogros5:hover .cardLogros-content {
+  transform: translateY(0);
+}
+
+.cardLogros6:hover {
+  transform: scale(1.01);
+  box-shadow: rgba(22, 22, 22, 0.4) 0px 7px 20px 0px;
+}
+.cardLogros6:hover .cardLogros-titel::after {
+  transform: translateX(-10%);
+}
+.cardLogros6:hover .cardLogros-content {
+  transform: translateY(0);
+}
+
+.cardLogros7:hover {
+  transform: scale(1.01);
+  box-shadow: rgba(22, 22, 22, 0.4) 0px 7px 20px 0px;
+}
+.cardLogros7:hover .cardLogros-titel::after {
+  transform: translateX(-10%);
+}
+.cardLogros7:hover .cardLogros-content {
+  transform: translateY(0);
+}
+
+
+.cardLogros-titel::after {
+  content: "";
+  height: 4px;
+  width: 100%;
+  background-color: #efab5a;
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  transform: translateX(-95%);
+  transition: ease-in-out 0.5s;
+  transition-delay: 0.5s;
+  z-index: -1;
+}
+.cardLogros-button {
+  display: inline-block;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.2rem;
+  background-color: var(--signal);
+  cursor: pointer;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+}
+
+.cardLogros-button:hover,
+.cardLogros-button:focus {
+  background-color: var(--accent);
+}
+
+
+.logros-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.anio-container {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+
+/* Main contenedor */
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+
+/* .perfil-contenedor:hover */
+.perfil-contenedor {
+  width: 200px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: rgba(39, 39, 39, 0.14) 0px 5px 20px;
+  border-radius: 9px;
+  transition: 1s all ease;
+}
+.perfil-contenedor2 {
+  width: 200px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: rgba(39, 39, 39, 0.14) 0px 5px 20px;
+  border-radius: 9px;
+  transition: 1s all ease;
+}
+
+.perfil-contenedor3 {
+  width: 200px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: rgba(39, 39, 39, 0.14) 0px 5px 20px;
+  border-radius: 9px;
+  transition: 1s all ease;
+}
+
+.perfil-contenedor4 {
+  width: 200px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: rgba(39, 39, 39, 0.14) 0px 5px 20px;
+  border-radius: 9px;
+  transition: 1s all ease;
+}
+
+.perfil-contenedor5 {
+  width: 200px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: rgba(39, 39, 39, 0.14) 0px 5px 20px;
+  border-radius: 9px;
+  transition: 1s all ease;
+}
+
+.perfil-contenedorLol1 {
+  width: 200px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: rgba(39, 39, 39, 0.14) 0px 5px 20px;
+  border-radius: 9px;
+  transition: 1s all ease;
+}
+
+.perfil-contenedorLol2 {
+  width: 200px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: rgba(39, 39, 39, 0.14) 0px 5px 20px;
+  border-radius: 9px;
+  transition: 1s all ease;
+}
+
+.perfil-contenedorLol3 {
+  width: 200px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: rgba(39, 39, 39, 0.14) 0px 5px 20px;
+  border-radius: 9px;
+  transition: 1s all ease;
+}
+
+.perfil-contenedorLol4 {
+  width: 200px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: rgba(39, 39, 39, 0.14) 0px 5px 20px;
+  border-radius: 9px;
+  transition: 1s all ease;
+}
+
+.perfil-contenedorLol5 {
+  width: 200px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: rgba(39, 39, 39, 0.14) 0px 5px 20px;
+  border-radius: 9px;
+  transition: 1s all ease;
+}
+
+.perfil-contenedor::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("assets/img/nitro2.webp") no-repeat center center/cover;
+  z-index: -1;
+  opacity: 1;
+  transition: all 0.5s ease-in;
+}
+.perfil-contenedor2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("assets/img/kaefe4.webp") no-repeat center center/cover;
+  z-index: -1;
+  opacity: 1;
+  transition: all 0.5s ease-in;
+}
+
+.perfil-contenedor3::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("assets/img/skarp2.webp") no-repeat center center/cover;
+  z-index: -1;
+  opacity: 1;
+  transition: all 0.5s ease-in;
+}
+
+.perfil-contenedor4::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("assets/img/panno2.webp") no-repeat center center/cover;
+  z-index: -1;
+  opacity: 1;
+  transition: all 0.5s ease-in;
+}
+
+.perfil-contenedor5::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("assets/img/ragnar2.webp") no-repeat center center/cover;
+  z-index: -1;
+  opacity: 1;
+  transition: all 0.5s ease-in;
+}
+
+.perfil-contenedorLol1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("assets/img/zKs.webp") no-repeat center center/cover;
+  z-index: -1;
+  opacity: 1;
+  transition: all 0.5s ease-in;
+}
+
+.perfil-contenedorLol2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("assets/img/asta.webp") no-repeat center center/cover;
+  z-index: -1;
+  opacity: 1;
+  transition: all 0.5s ease-in;
+}
+
+.perfil-contenedorLol3::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("assets/img/Neadz.webp") no-repeat center center/cover;
+  z-index: -1;
+  opacity: 1;
+  transition: all 0.5s ease-in;
+}
+
+.perfil-contenedorLol4::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("assets/img/Pipo.webp") no-repeat center center/cover;
+  z-index: -1;
+  opacity: 1;
+  transition: all 0.5s ease-in;
+}
+
+.perfil-contenedorLol5::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("assets/img/Lyg.webp") no-repeat center center/cover;
+  z-index: -1;
+  opacity: 1;
+  transition: all 0.5s ease-in;
+}
+
+
+.perfil-contenedor:hover:before {
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.perfil-contenedor2:hover:before {
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.perfil-contenedor3:hover:before {
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.perfil-contenedor4:hover:before {
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.perfil-contenedor5:hover:before {
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.perfil-contenedorLol1:hover:before {
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.perfil-contenedorLol2:hover:before {
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.perfil-contenedorLol3:hover:before {
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.perfil-contenedorLol4:hover:before {
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.perfil-contenedorLol5:hover:before {
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+/* perfil carta Wrapper */
+.perfil-wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.perfil-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #00adde 0%, #00adde 100%);
+  transform: skew(30deg) translateX(125%);
+  opacity: 0.9;
+  transition: all 0.6s ease;
+}
+
+.perfil-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 0.5px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #00adde 0%, #00adde 100%);
+  transform: skew(30deg) translateX(-125%);
+  opacity: 0.9;
+  transition: all 0.6s ease;
+}
+
+.perfil-contenedor:hover .perfil-wrapper::after {
+  transform: skew(30deg) translateX(125%);
+  background: linear-gradient(to right, #00adde 0%, #00adde 100%);
+}
+.perfil-contenedor:hover .perfil-wrapper::before {
+  transform: skew(30deg) translateX(-125%);
+  background: linear-gradient(to right, #00adde 0%, #00adde 100%);
+}
+
+.perfil-contenedor2:hover .perfil-wrapper::after {
+  transform: skew(30deg) translateX(125%);
+  background: linear-gradient(to right, #00adde 0%, #00adde 100%);
+}
+.perfil-contenedor2:hover .perfil-wrapper::before {
+  transform: skew(30deg) translateX(-125%);
+  background: linear-gradient(to right, #00adde 0%, #00adde 100%);
+}
+
+.perfil-contenedor3:hover .perfil-wrapper::after {
+  transform: skew(30deg) translateX(125%);
+  background: linear-gradient(to right, #00adde 0%, #00adde 100%);
+}
+.perfil-contenedor3:hover .perfil-wrapper::before {
+  transform: skew(30deg) translateX(-125%);
+  background: linear-gradient(to right, #00adde 0%, #00adde 100%);
+}
+
+.perfil-contenedor4:hover .perfil-wrapper::after {
+  transform: skew(30deg) translateX(125%);
+  background: linear-gradient(to right, #00adde 0%, #00adde 100%);
+}
+.perfil-contenedor4:hover .perfil-wrapper::before {
+  transform: skew(30deg) translateX(-125%);
+  background: linear-gradient(to right, #00adde 0%, #00adde 100%);
+}
+
+.perfil-contenedor5:hover .perfil-wrapper::after {
+  transform: skew(30deg) translateX(125%);
+  background: linear-gradient(to right, #00adde 0%, #00adde 100%);
+}
+.perfil-contenedor5:hover .perfil-wrapper::before {
+  transform: skew(30deg) translateX(-125%);
+  background: linear-gradient(to right, #00adde 0%, #00adde 100%);
+}
+
+.perfil-contenedorLol1:hover .perfil-wrapper::after {
+  transform: skew(30deg) translateX(125%);
+  background: linear-gradient(to right, #00adde 0%, #00adde 100%);
+}
+.perfil-contenedorLol1:hover .perfil-wrapper::before {
+  transform: skew(30deg) translateX(-125%);
+  background: linear-gradient(to right, #00adde 0%, #00adde 100%);
+}
+
+.perfil-contenedorLol2:hover .perfil-wrapper::after {
+  transform: skew(30deg) translateX(125%);
+  background: linear-gradient(to right, #00adde 0%, #00adde 100%);
+}
+.perfil-contenedorLol2:hover .perfil-wrapper::before {
+  transform: skew(30deg) translateX(-125%);
+  background: linear-gradient(to right, #00adde 0%, #00adde 100%);
+}
+
+.perfil-contenedorLol3:hover .perfil-wrapper::after {
+  transform: skew(30deg) translateX(125%);
+  background: linear-gradient(to right, #00adde 0%, #00adde 100%);
+}
+.perfil-contenedorLol3:hover .perfil-wrapper::before {
+  transform: skew(30deg) translateX(-125%);
+  background: linear-gradient(to right, #00adde 0%, #00adde 100%);
+}
+
+.perfil-contenedorLol4:hover .perfil-wrapper::after {
+  transform: skew(30deg) translateX(125%);
+  background: linear-gradient(to right, #00adde 0%, #00adde 100%);
+}
+.perfil-contenedorLol4:hover .perfil-wrapper::before {
+  transform: skew(30deg) translateX(-125%);
+  background: linear-gradient(to right, #00adde 0%, #00adde 100%);
+}
+
+.perfil-contenedorLol5:hover .perfil-wrapper::after {
+  transform: skew(30deg) translateX(125%);
+  background: linear-gradient(to right, #00adde 0%, #00adde 100%);
+}
+.perfil-contenedorLol5:hover .perfil-wrapper::before {
+  transform: skew(30deg) translateX(-125%);
+  background: linear-gradient(to right, #00adde 0%, #00adde 100%);
+}
+/* perfil carta */
+.perfil-carta {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1.6rem 12px;
+  position: relative;
+  opacity: 0;
+  transition: all 0.3s ease;
+  background: url("assets/img/banco.webp") no-repeat center center/cover;
+}
+
+.perfil-contenedor:hover .perfil-carta {
+  opacity: 1;
+  transition: all 0.6s ease;
+  transition-delay: 0.2s;
+}
+
+.perfil-contenedor2:hover .perfil-carta {
+  opacity: 1;
+  transition: all 0.6s ease;
+  transition-delay: 0.2s;
+}
+
+.perfil-contenedor3:hover .perfil-carta {
+  opacity: 1;
+  transition: all 0.6s ease;
+  transition-delay: 0.2s;
+}
+
+.perfil-contenedor4:hover .perfil-carta {
+  opacity: 1;
+  transition: all 0.6s ease;
+  transition-delay: 0.2s;
+}
+
+.perfil-contenedor5:hover .perfil-carta {
+  opacity: 1;
+  transition: all 0.6s ease;
+  transition-delay: 0.2s;
+}
+
+.perfil-contenedorLol1:hover .perfil-carta {
+  opacity: 1;
+  transition: all 0.6s ease;
+  transition-delay: 0.2s;
+}
+
+.perfil-contenedorLol2:hover .perfil-carta {
+  opacity: 1;
+  transition: all 0.6s ease;
+  transition-delay: 0.2s;
+}
+
+.perfil-contenedorLol3:hover .perfil-carta {
+  opacity: 1;
+  transition: all 0.6s ease;
+  transition-delay: 0.2s;
+}
+
+.perfil-contenedorLol4:hover .perfil-carta {
+  opacity: 1;
+  transition: all 0.6s ease;
+  transition-delay: 0.2s;
+}
+
+.perfil-contenedorLol5:hover .perfil-carta {
+  opacity: 1;
+  transition: all 0.6s ease;
+  transition-delay: 0.2s;
+}
+/* perfil Picture */
+.perfil-carta img {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 1rem 0;
+  margin-top: -0.05rem;
+  border: 2px solid transparent;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  position: relative;
+}
+
+.perfil-carta h2 {
+  line-height: 1.2;
+  margin-top: -0.1rem;
+  margin-bottom: 0.2rem;
+  color: #00adde;
+  font-size: 1.6rem;
+  font-family: "Rubik", sans-serif;
+}
+.perfil-carta h4 {
+  line-height: 1.5;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: rgb(255, 255, 255);
+}
+
+.perfil-carta p {
+  line-height: 1.5;
+  color: #333;
+  font-weight: 400;
+  margin: 12px 0;
+  width: 92%;
+  letter-spacing: 0.2px;
+  font-size: 0.8rem;
+}
+
+/* perfil icons */
+.perfil-carta .icons {
+  display: flex;
+  color: #ffffff;
+  width: 80%;
+  justify-content: space-evenly;
+  font-size: 1.5rem;
+  margin: 4px 0;
+}
+
+.perfil-carta .icons i {
+  transition: 0.2s;
+}
+
+.perfil-carta .icons i:hover {
+  transform: translateY(-5px);
+  color: #00adde;
+}
+
+/* perfil Button */
+.perfil-carta a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+  padding: 8px 20px;
+  margin-top: 1rem;
+  background: #5b6072;
+  border-radius: 50px;
+  transition: 0.2s;
+}
+
+.perfil-carta a:hover {
+  box-shadow: rgba(0, 0, 0, 0.177) 0px 5px 15px;
+  background: #4a6ae8;
+}
+
+.forma-1 {
+  position: absolute;
+  z-index: -1;
+  opacity: 0.3;
+  animation: heroDecoAnim 3s linear infinite alternate;
+  top: 5%;
+  right: 78%;
+}
+
+
+
+@keyframes heroDecoAnim {
+  0% {
+    transform: translateY(40px) rotate(0);
+  }
+  100% {
+    transform: translateY(0) rotate(0.4turn);
+  }
+}
+
+
+.nextMatches {
+  background: url("assets/img/backgroundNextMatches.webp") no-repeat center center/cover;
+}

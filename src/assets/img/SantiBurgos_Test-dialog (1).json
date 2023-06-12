@@ -1,0 +1,5763 @@
+{
+  "intents": [
+    {
+      "intent": "InformarPago",
+      "examples": [
+        {
+          "text": "lo hice anteayer"
+        },
+        {
+          "text": "Quiero avisar que ya pagué"
+        },
+        {
+          "text": "Quiero informar que ya pagué"
+        },
+        {
+          "text": "Quiero informar que ya realice el pago"
+        },
+        {
+          "text": "Quiero informar un pago"
+        },
+        {
+          "text": "Ya pague mi saldo"
+        },
+        {
+          "text": "Yo ya pagué mi saldo"
+        },
+        {
+          "text": "Yo ya pagué mi saldo ayer"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "MediosDePago",
+      "examples": [
+        {
+          "text": "aplicacion"
+        },
+        {
+          "text": "mercado pago"
+        },
+        {
+          "text": "mi personal"
+        },
+        {
+          "text": "no puedo pagar con homebanking"
+        },
+        {
+          "text": "pagina"
+        },
+        {
+          "text": "pago facil"
+        },
+        {
+          "text": "pago mis cuentas"
+        },
+        {
+          "text": "rapipago"
+        },
+        {
+          "text": "tarjeta de credito"
+        },
+        {
+          "text": "tarjeta de debito"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "No",
+      "examples": [
+        {
+          "text": "no"
+        },
+        {
+          "text": "no gracias"
+        },
+        {
+          "text": "no, gracias"
+        },
+        {
+          "text": "No, ya esta"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "NoLeInteresa",
+      "examples": [
+        {
+          "text": "No me interesa descargarme la aplicación"
+        },
+        {
+          "text": "No me interesa pagar con la aplicación"
+        },
+        {
+          "text": "No quiero descargarme una aplicación"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "PagoHaceMAS",
+      "examples": [
+        {
+          "text": "dos semanas atras"
+        },
+        {
+          "text": "el mes pasado"
+        },
+        {
+          "text": "hace dos semanas"
+        },
+        {
+          "text": "hace mil años"
+        },
+        {
+          "text": "hace mucho mas de 3 dias"
+        },
+        {
+          "text": "hace tres semanas"
+        },
+        {
+          "text": "hace una semana"
+        },
+        {
+          "text": "hace unas semanas"
+        },
+        {
+          "text": "hace un monton"
+        },
+        {
+          "text": "lo hice la semana pasada"
+        },
+        {
+          "text": "lo pague hace una semana"
+        },
+        {
+          "text": "mil dias"
+        },
+        {
+          "text": "tres semanas atras"
+        },
+        {
+          "text": "una semana atras lo pague"
+        },
+        {
+          "text": "unas semanas atras"
+        },
+        {
+          "text": "un monton de dias"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "PagoHaceMENOS",
+      "examples": [
+        {
+          "text": "anteayer"
+        },
+        {
+          "text": "ayer"
+        },
+        {
+          "text": "hace 4 horas"
+        },
+        {
+          "text": "hace unas horas"
+        },
+        {
+          "text": "horas"
+        },
+        {
+          "text": "lo hice ante ayer"
+        },
+        {
+          "text": "lo hice ayer"
+        },
+        {
+          "text": "lo hice hace 5 horas"
+        },
+        {
+          "text": "pague ayer"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "quiero_pagar",
+      "examples": [
+        {
+          "text": "quiero abonar"
+        },
+        {
+          "text": "quiero abonar mi saldo"
+        },
+        {
+          "text": "quiero pagar"
+        },
+        {
+          "text": "quiero pagar mi abono"
+        },
+        {
+          "text": "quiero pagar mi deuda"
+        },
+        {
+          "text": "Si, quiero pagar mi factura"
+        },
+        {
+          "text": "yo llamaba para pagar una factura"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Repetir",
+      "examples": [
+        {
+          "text": "avion"
+        },
+        {
+          "text": "me repetirias por favor?"
+        },
+        {
+          "text": "No entendi"
+        },
+        {
+          "text": "No entendi, podrias repetirme?"
+        },
+        {
+          "text": "No te entiendo"
+        },
+        {
+          "text": "No te escuche"
+        },
+        {
+          "text": "Repetime por favor"
+        },
+        {
+          "text": "Repeti por favor"
+        },
+        {
+          "text": "Repetir"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Saldo",
+      "examples": [
+        {
+          "text": "cual es mi saldo"
+        },
+        {
+          "text": "cuanto es mi abono"
+        },
+        {
+          "text": "cuanto me queda de saldo"
+        },
+        {
+          "text": "cuanto tengo de saldo"
+        },
+        {
+          "text": "Quiero saber mi saldo"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Si",
+      "examples": [
+        {
+          "text": "Bueno"
+        },
+        {
+          "text": "Bueno gracias"
+        },
+        {
+          "text": "Dale"
+        },
+        {
+          "text": "gracias"
+        },
+        {
+          "text": "ok"
+        },
+        {
+          "text": "Ok, decime cuales on"
+        },
+        {
+          "text": "ok, entendi"
+        },
+        {
+          "text": "ok, gracias"
+        },
+        {
+          "text": "Si"
+        },
+        {
+          "text": "Si, decimelas"
+        },
+        {
+          "text": "si, perfecto"
+        },
+        {
+          "text": "Si, por favor"
+        },
+        {
+          "text": "Te escucho"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "celular",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Android",
+          "synonyms": [
+            "Huawei",
+            "LG",
+            "Motorola",
+            "Samsung",
+            "Xiaomi"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "IOS",
+          "synonyms": [
+            "Apple",
+            "Iphone"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "mediosdepago",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "cobro express",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "homebanking",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "mercado pago",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mi personal",
+          "synonyms": [
+            "aplicacion",
+            "app mi personal"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pagina",
+          "synonyms": [
+            "web"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pago fácil",
+          "synonyms": [
+            "pagofacil"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pago mis cuentas",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "rapipago",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "tarjeta de credito",
+          "synonyms": [
+            "tarjeta"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "problemas",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "error",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "hay un problema",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "no funciona",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "no habia sistema",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "no me lo toma",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "no me tomaron el pago",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "no puedo",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "no va",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "numero de referencia",
+          "synonyms": [
+            "numero de cliente",
+            "numero de información del cliente",
+            "numero de línea"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pero",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-currency",
+      "values": []
+    },
+    {
+      "entity": "sys-date",
+      "values": []
+    },
+    {
+      "entity": "sys-number",
+      "values": []
+    }
+  ],
+  "metadata": {
+    "skill": {
+      "counts": {
+        "intents": 4,
+        "entities": 7,
+        "dialog_nodes": 34
+      }
+    },
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "webhooks": [
+    {
+      "url": "",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bienvenido",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1683301583386"
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bienvenido"
+    },
+    {
+      "type": "standard",
+      "title": "Bienvenida2_SETEO DE VARIABLES",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Contame cómo puedo ayudarte "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Bienvenido",
+      "context": {
+        "accion": "TTS#0"
+      },
+      "dialog_node": "node_10_1683301583386"
+    },
+    {
+      "type": "standard",
+      "title": "No (otras opciones) ",
+      "output": {},
+      "parent": "node_8_1683309131082",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1683308550982"
+      },
+      "conditions": "#No",
+      "dialog_node": "node_10_1683640614381",
+      "previous_sibling": "node_2_1683308859982"
+    },
+    {
+      "type": "standard",
+      "title": "Llamando adapter",
+      "output": {},
+      "parent": "node_1_1683721045515",
+      "actions": [
+        {
+          "name": "canonicalService",
+          "type": "client",
+          "proxyId": 1,
+          "parameters": {
+            "param1": "$accountIntegrationId",
+            "param2": "FAN",
+            "param3": "$fechaHoraActualMenos6Meses",
+            "param4": "$fechaHoraActual",
+            "param5": 7,
+            "service_id": "100"
+          },
+          "result_variable": "result"
+        }
+      ],
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1684414100054"
+      },
+      "conditions": "false",
+      "dialog_node": "node_10_1683721176194"
+    },
+    {
+      "type": "standard",
+      "title": "SI / Cuales son",
+      "output": {},
+      "parent": "node_8_1684336714459",
+      "conditions": "#Si",
+      "dialog_node": "node_10_1684336714463",
+      "previous_sibling": "node_9_1684336714463"
+    },
+    {
+      "type": "standard",
+      "title": "JUMP TO_NODO PRIMER HIJO_WI",
+      "parent": "node_7_1683304945083",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_6_1683311966617"
+      },
+      "conditions": "false",
+      "dialog_node": "node_10_1684413801574",
+      "previous_sibling": "node_4_1683312137426"
+    },
+    {
+      "type": "standard",
+      "title": "No entendió USER",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Dale, te repito."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1684414100060",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1684414100060"
+      },
+      "conditions": "#Repetir",
+      "dialog_node": "node_10_1684414100060",
+      "previous_sibling": "response_15_1684414100060"
+    },
+    {
+      "type": "standard",
+      "title": "JUMP TO_ PRIMER NODO HIJO_WI",
+      "parent": "node_3_1683306923332",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_4_1683639653721"
+      },
+      "dialog_node": "node_10_1684417057375",
+      "previous_sibling": "node_3_1683639231222"
+    },
+    {
+      "type": "standard",
+      "title": "NO ENTENDIO BOT",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Discúlpame, no entendí, ¿me repetirías?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1685457417550",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_26_1685465281479"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_10_1685457425469",
+      "previous_sibling": "node_2_1685457422208"
+    },
+    {
+      "type": "standard",
+      "title": "JUMP TO_NODO PRIMER HIJO_WI",
+      "parent": "node_3_1685457398617",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_2_1685457410650"
+      },
+      "conditions": "false",
+      "dialog_node": "node_10_1685457428119",
+      "previous_sibling": "node_2_1685457414044"
+    },
+    {
+      "type": "standard",
+      "title": "No entendió BOT ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Discúlpame, no entendí, ¿me repetirías?"
+              },
+              {
+                "text": "¿Podrías reformular tu consulta? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1683312137426",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1684416183216"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_11_1683640719695",
+      "previous_sibling": "node_1_1683636972675"
+    },
+    {
+      "type": "standard",
+      "title": "SI - Jump to Pagar",
+      "output": {},
+      "parent": "node_9_1684414100060",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1685539125234"
+      },
+      "conditions": "#Si",
+      "dialog_node": "node_11_1684414100060",
+      "previous_sibling": "node_10_1684414100060"
+    },
+    {
+      "type": "standard",
+      "title": "No entendió USER",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No es problema, te repito"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1683312137426",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1683312137426"
+      },
+      "conditions": "#Repetir",
+      "dialog_node": "node_1_1683636972675",
+      "previous_sibling": "node_7_1683306075584"
+    },
+    {
+      "type": "standard",
+      "title": "EPICA: Saber saldo",
+      "output": {
+        "generic": []
+      },
+      "context": {
+        "httpResponseCode": 200
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1683721176194"
+      },
+      "conditions": "#Saldo",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1683721045515",
+      "previous_sibling": "Bienvenido"
+    },
+    {
+      "type": "standard",
+      "title": "Llamando adapter ",
+      "output": {},
+      "parent": "node_4_1683897216453",
+      "actions": [
+        {
+          "name": "canonicalService",
+          "type": "client",
+          "proxyId": 1,
+          "parameters": {
+            "param1": "$accountIntegrationId",
+            "param2": "FAN",
+            "param3": "$fechaHoraActualMenos6Meses",
+            "param4": "$fechaHoraActual",
+            "param5": 7,
+            "service_id": "100"
+          },
+          "result_variable": "result"
+        }
+      ],
+      "conditions": "false",
+      "dialog_node": "node_1_1683903445985"
+    },
+    {
+      "type": "standard",
+      "title": "SALDO 0 - JUMP TO épica medios de pago.",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tu saldo es de 0 pesos."
+              },
+              {
+                "text": "Te puedo decir otros medios de pago para que puedas usar la próxima vez que quieras pagar tu factura. ¿Cuál te gustaría conocer?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_2_1683903445987",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "$saldoTotal==0",
+      "dialog_node": "node_1_1684246614628"
+    },
+    {
+      "type": "standard",
+      "title": "JUMP TO_NODO PRIMER HIJO_WI",
+      "parent": "node_1_1684246614628",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_6_1683644873212"
+      },
+      "conditions": "false",
+      "dialog_node": "node_1_1684248709308",
+      "previous_sibling": "node_6_1683723920492"
+    },
+    {
+      "type": "standard",
+      "title": "SALDO A FAVOR, DEUDA - JUMP TO épica medios de pago",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tenes una deuda de <break time=\"300ms\"/>  $saldoTotal pesos. "
+              },
+              {
+                "text": "¿Avanzamos con el pago ahora?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_2_1683903445987",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "$saldoTotal > 0",
+      "dialog_node": "node_1_1684336605773",
+      "previous_sibling": "node_1_1684246614628"
+    },
+    {
+      "type": "standard",
+      "title": "Integración OK",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1683721176194",
+      "context": {
+        "saldoTotal": "<? $result.saldoTotal.toDouble() ?>",
+        "dictadoFecha": "<say-as interpret-as=\"date\" format=\"mmdd\" detail=\"1\"><?$result.fechaVencUltimaFactura.substring(5, 10) ?></say-as>",
+        "fechaVencUltimaFactura": "$result.fechaVencUltimaFactura"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1684414100060"
+      },
+      "conditions": "$httpResponseCode==200",
+      "dialog_node": "node_1_1684414100054"
+    },
+    {
+      "type": "standard",
+      "title": "JUMP TO_NODO PRIMER HIJO_WI",
+      "output": {},
+      "parent": "node_3_1683306936769",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_8_1683309131082"
+      },
+      "conditions": "false",
+      "dialog_node": "node_1_1684418009261",
+      "previous_sibling": "node_7_1683640185628"
+    },
+    {
+      "type": "standard",
+      "title": "NOMBRA ALGUNA INTENCIÓN QUE CONOCEMOS",
+      "output": {},
+      "parent": "node_1_1684336605773",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@mediosdepago || #InformarPago || #Saldo",
+      "dialog_node": "node_1_1685463269140",
+      "previous_sibling": "node_31_1684414585016"
+    },
+    {
+      "type": "standard",
+      "title": "NO ENTENDIO USER",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No es problema, te repito"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1685457420039",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1685457420039"
+      },
+      "conditions": "#Repetir",
+      "dialog_node": "node_1_1685465381715"
+    },
+    {
+      "type": "standard",
+      "title": "INTEGRACIÓN OK",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No te hagas problema, ya estoy avisando que imputen tu pago. Aguarda unas horas y se vera reflejado en tu saldo"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1685466282052",
+      "conditions": "$httpResponseCode==200",
+      "dialog_node": "node_1_1685466284764"
+    },
+    {
+      "type": "standard",
+      "title": "Llamando adapter PAGAR ",
+      "output": {},
+      "parent": "node_3_1684336605777",
+      "actions": [
+        {
+          "name": "canonicalService",
+          "type": "client",
+          "proxyId": 1,
+          "parameters": {
+            "param1": "$accountIntegrationId",
+            "param2": "FAN",
+            "param3": "$fechaHoraActualMenos6Meses",
+            "param4": "$fechaHoraActual",
+            "param5": 7,
+            "service_id": "100"
+          },
+          "result_variable": "result"
+        }
+      ],
+      "conditions": "false",
+      "dialog_node": "node_1_1685539125226"
+    },
+    {
+      "type": "standard",
+      "title": "INTEGRACIÓN OK",
+      "parent": "node_2_1686147405358",
+      "dialog_node": "node_1_1686147413066"
+    },
+    {
+      "type": "standard",
+      "title": "No entendió BOT",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Discúlpame, no entendí, ¿me repetirías?"
+              },
+              {
+                "text": "¿Podrías reformular tu consulta? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1684336714459",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_13_1684336714463"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_12_1684336714463",
+      "previous_sibling": "node_5_1685463290306"
+    },
+    {
+      "type": "standard",
+      "title": "JUMP TO_NODO PRIMER HIJO_WI",
+      "output": {},
+      "parent": "node_8_1684336714459",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_9_1684336714463"
+      },
+      "conditions": "false",
+      "dialog_node": "node_13_1684336714463",
+      "previous_sibling": "node_12_1684336714463"
+    },
+    {
+      "type": "standard",
+      "title": "No entendió BOT",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Discúlpame, no entendí, ¿me repetirías?"
+              },
+              {
+                "text": "¿Podrías reformular tu consulta? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1684414100060",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_14_1684414100060"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_13_1684414100060",
+      "previous_sibling": "node_8_1684414436833"
+    },
+    {
+      "type": "standard",
+      "title": "NOMBRA ALGUNA INTENCIÓN QUE CONOCEMOS",
+      "output": {},
+      "parent": "node_9_1684414100060",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@mediosdepago || #InformarPago || #Saldo",
+      "dialog_node": "node_13_1685463449748",
+      "previous_sibling": "node_11_1684414100060"
+    },
+    {
+      "type": "standard",
+      "title": "JUMP TO_NODO PRIMER HIJO_WI",
+      "output": {},
+      "parent": "node_9_1684414100060",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_10_1684414100060"
+      },
+      "conditions": "false",
+      "dialog_node": "node_14_1684414100060",
+      "previous_sibling": "node_13_1684414100060"
+    },
+    {
+      "type": "standard",
+      "title": "SALDO A FAVOR - JUMP TO épica medios de pago",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1684414100054",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "$saldoTotal< 0",
+      "dialog_node": "node_16_1684414100060",
+      "previous_sibling": "node_9_1684414100060"
+    },
+    {
+      "type": "standard",
+      "title": "No entendió USER",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Dale, te repito."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_16_1684414100060",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_16_1684414100060"
+      },
+      "conditions": "#Repetir",
+      "dialog_node": "node_17_1684414100060",
+      "previous_sibling": "response_28_1684414100060"
+    },
+    {
+      "type": "standard",
+      "title": "NOMBRA ALGUNA INTENCIÓN QUE CONOCEMOS",
+      "output": {},
+      "parent": "node_16_1684414100060",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@mediosdepago || #InformarPago || #Saldo",
+      "dialog_node": "node_17_1685463465489",
+      "previous_sibling": "node_21_1685463501458"
+    },
+    {
+      "type": "standard",
+      "title": "SI - Jump to Medios de pago",
+      "output": {},
+      "parent": "node_16_1684414100060",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1683304945083"
+      },
+      "conditions": "#Si",
+      "dialog_node": "node_18_1684414100060",
+      "previous_sibling": "node_17_1684414100060"
+    },
+    {
+      "type": "standard",
+      "title": "Llamando adapter PAGAR",
+      "output": {},
+      "parent": "node_18_1684414100060",
+      "actions": [
+        {
+          "name": "canonicalService",
+          "type": "client",
+          "proxyId": 1,
+          "parameters": {
+            "param1": "$accountIntegrationId",
+            "param2": "FAN",
+            "param3": "$fechaHoraActualMenos6Meses",
+            "param4": "$fechaHoraActual",
+            "param5": 7,
+            "service_id": "100"
+          },
+          "result_variable": "result"
+        }
+      ],
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_20_1684414100060"
+      },
+      "conditions": "false",
+      "dialog_node": "node_19_1684414100060"
+    },
+    {
+      "type": "standard",
+      "title": "Integración OK",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Perfecto! <break time=\"300ms\"/> Tu pago ya está hecho. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_19_1684414100060",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1683308529619"
+      },
+      "conditions": "$httpResponseCode==200",
+      "dialog_node": "node_20_1684414100060"
+    },
+    {
+      "type": "standard",
+      "title": "Integración falla",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No pudimos realizar el pago. <break time=\"600ms\"/> Voy a derivarte con un representante para que continues con tu consulta. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_19_1684414100060",
+      "context": {
+        "accion": "connect_to_agent#TTS",
+        "returnCode": 4
+      },
+      "dialog_node": "node_21_1684414100060",
+      "previous_sibling": "node_20_1684414100060"
+    },
+    {
+      "type": "standard",
+      "title": "NO / Algo más? ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Te puedo ayudar con algo más?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_16_1684414100060",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_27_1684414100060"
+      },
+      "conditions": "#No",
+      "dialog_node": "node_21_1685463501458",
+      "previous_sibling": "node_18_1684414100060"
+    },
+    {
+      "type": "standard",
+      "title": "Android",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Te sugiero descargar la aplicación \"Mi personal\" desde la Play Store."
+              },
+              {
+                "text": "Ahora con la aplicación instalada, en el menú principal de \"Mi Personal\" vas a encontrar la sección de \"factura\", donde podés pagar tu línea."
+              },
+              {
+                "text": "Avísame si necestás que repitamos este paso"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_7_1683305349404",
+      "conditions": "@celular:Android",
+      "dialog_node": "node_2_1683305516781"
+    },
+    {
+      "type": "standard",
+      "title": "MÁS AYUDA",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Te puedo ayudar en algo más?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "false",
+      "dialog_node": "node_2_1683308529619",
+      "previous_sibling": "node_7_1683304945083"
+    },
+    {
+      "type": "standard",
+      "title": "Si (otras opciones) ",
+      "parent": "node_8_1683309131082",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1683312137426"
+      },
+      "conditions": "#Si",
+      "dialog_node": "node_2_1683308859982"
+    },
+    {
+      "type": "standard",
+      "title": "Representante",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Perfecto, te comunico con un representante, gracias por comunicarte conmigo! Que tengas buen día."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1683310337440",
+      "conditions": "#No",
+      "dialog_node": "node_2_1683310424799"
+    },
+    {
+      "type": "standard",
+      "title": "No entendio BOT",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Discúlpame, no entendí, te puedo ayudar en algo más?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1683308529619",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1684251421898"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_2_1683636231680",
+      "previous_sibling": "node_6_1684251884789"
+    },
+    {
+      "type": "standard",
+      "title": "Integración OK",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_1_1683903445985",
+      "context": {
+        "saldoTotal": "<? $result.saldoTotal.toDouble() ?>"
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "$httpResponseCode==200",
+      "dialog_node": "node_2_1683903445987"
+    },
+    {
+      "type": "standard",
+      "title": "No entendió USER",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Dale, te repito. Tu saldo es de 0 pesos. Y puedo contarte sobre algunos medios de pago que tenemos. ¿Cuál te gustaría conocer?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1684336605773",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1684336605777"
+      },
+      "conditions": "#Repetir",
+      "dialog_node": "node_2_1684336605777",
+      "previous_sibling": "response_7_1684336605777"
+    },
+    {
+      "type": "standard",
+      "title": "SALDO 0 - JUMP TO épica medios de pago.",
+      "parent": "node_1_1684414100054",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "$saldoTotal==0",
+      "dialog_node": "node_2_1684414100060"
+    },
+    {
+      "type": "standard",
+      "title": "JUMP TO_ PRIMER NODO HIJO_WI",
+      "output": {},
+      "parent": "node_9_1683302473640",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_5_1683310319120"
+      },
+      "dialog_node": "node_2_1684418121079",
+      "previous_sibling": "node_4_1683723812414"
+    },
+    {
+      "type": "standard",
+      "title": "No entendio USER",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Dale, te repito"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1685457398617",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1685457398617"
+      },
+      "conditions": "#Repetir",
+      "dialog_node": "node_2_1685457410650",
+      "previous_sibling": "node_7_1685458717232"
+    },
+    {
+      "type": "standard",
+      "title": "No entendió BOT",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Discúlpame, no entendí, ¿me repetirías?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1685457398617",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1685457428119"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_2_1685457414044",
+      "previous_sibling": "node_2_1685457410650"
+    },
+    {
+      "type": "standard",
+      "title": "NO ENTENDIO USER",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No es problema! Te repito"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1685457417550",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1685457417550"
+      },
+      "conditions": "#Repetir",
+      "dialog_node": "node_2_1685457422208",
+      "previous_sibling": "node_5_1685465853693"
+    },
+    {
+      "type": "standard",
+      "title": "Integración OK",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Perfecto! <break time=\"300ms\"/> Tu pago ya está hecho. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1685539125226",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1683308529619"
+      },
+      "conditions": "$httpResponseCode==200",
+      "dialog_node": "node_2_1685539125234"
+    },
+    {
+      "type": "standard",
+      "title": "Llamando adapter 100",
+      "output": {},
+      "parent": "node_6_1686147324973",
+      "actions": [
+        {
+          "name": "canonicalService",
+          "type": "client",
+          "proxyId": 1,
+          "parameters": {
+            "param1": "$accountIntegrationId",
+            "param2": "FAN",
+            "param3": "$fechaHoraActualMenos6Meses",
+            "param4": "$fechaHoraActual",
+            "param5": 7,
+            "service_id": "100"
+          },
+          "result_variable": "result"
+        }
+      ],
+      "conditions": "false",
+      "dialog_node": "node_2_1686147405358"
+    },
+    {
+      "type": "standard",
+      "title": "SI - OTROS MEDIOS DE PAGO",
+      "parent": "node_8_1686147324087",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1683304945083"
+      },
+      "conditions": "#Si",
+      "dialog_node": "node_2_1686148174192"
+    },
+    {
+      "type": "standard",
+      "title": "No entendió USER",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¡Si! Por supuesto, <break time=\"300ms\"/>  ya te repito. Tu pago ya esta hecho,<break time=\"600ms\"/> Gracias por comunicarte conmigo"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_19_1684414100060",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_24_1684414100060"
+      },
+      "conditions": "#Repetir",
+      "dialog_node": "node_22_1684414100060",
+      "previous_sibling": "node_21_1684414100060"
+    },
+    {
+      "type": "standard",
+      "title": "SI - MÁS AYUDA (Nombra alguna intención que conocemos)",
+      "output": {},
+      "parent": "node_7_1683305111795",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@mediosdepago || #InformarPago || #Saldo || #Si",
+      "dialog_node": "node_22_1685464133269",
+      "previous_sibling": "node_3_1684424289585"
+    },
+    {
+      "type": "standard",
+      "title": "No entendió BOT",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No entendí, podrías reformular tu consulta?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_19_1684414100060",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_24_1684414100060"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_23_1684414100060",
+      "previous_sibling": "node_22_1684414100060"
+    },
+    {
+      "type": "standard",
+      "title": "JUMP TO_NODO PRIMER HIJO_WI ",
+      "output": {},
+      "parent": "node_19_1684414100060",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_20_1684414100060"
+      },
+      "conditions": "false",
+      "dialog_node": "node_24_1684414100060",
+      "previous_sibling": "node_23_1684414100060"
+    },
+    {
+      "type": "standard",
+      "title": "No entendió BOT",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Discúlpame, no entendí, ¿me repetirías?"
+              },
+              {
+                "text": "¿Podrías reformular tu consulta? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_16_1684414100060",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_27_1684414100060"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_26_1684414100060",
+      "previous_sibling": "node_17_1685463465489"
+    },
+    {
+      "type": "standard",
+      "title": "JUMP TO_NODO PRIMER HIJO_WI ",
+      "output": {},
+      "parent": "node_7_1685457417550",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_4_1685457420039"
+      },
+      "conditions": "false",
+      "dialog_node": "node_26_1685465281479",
+      "previous_sibling": "node_10_1685457425469"
+    },
+    {
+      "type": "standard",
+      "title": "JUMP TO_NODO PRIMER HIJO_WI",
+      "output": {},
+      "parent": "node_16_1684414100060",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_17_1684414100060"
+      },
+      "conditions": "false",
+      "dialog_node": "node_27_1684414100060",
+      "previous_sibling": "node_26_1684414100060"
+    },
+    {
+      "type": "standard",
+      "title": "JUMP TO_NODO PRIMER HIJO_WI ",
+      "output": {},
+      "parent": "node_4_1685457420039",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_1_1685465381715"
+      },
+      "conditions": "false",
+      "dialog_node": "node_27_1685465445099",
+      "previous_sibling": "node_28_1685465512238"
+    },
+    {
+      "type": "standard",
+      "title": "SI - MÁS AYUDA (Nombra alguna intención que conocemos)",
+      "output": {},
+      "parent": "node_4_1685457420039",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@mediosdepago || #InformarPago || #Saldo || #Si",
+      "dialog_node": "node_28_1685465512238",
+      "previous_sibling": "node_7_1685465413417"
+    },
+    {
+      "type": "standard",
+      "title": "NO / Algo más?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Te puedo ayudar con algo más?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1684414100060",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1684251421898"
+      },
+      "conditions": "#No",
+      "dialog_node": "node_29_1684414536956",
+      "previous_sibling": "node_4_1684414100060"
+    },
+    {
+      "type": "standard",
+      "title": "NO / Algo más? ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Te puedo ayudar con algo más?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1684246614628",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1684251421898"
+      },
+      "conditions": "#No",
+      "dialog_node": "node_30_1684414554718",
+      "previous_sibling": "node_4_1684246670000"
+    },
+    {
+      "type": "standard",
+      "title": "NO / Algo más? ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Te puedo ayudar con algo más?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1684336605773",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1684251421898"
+      },
+      "conditions": "#No",
+      "dialog_node": "node_31_1684414585016",
+      "previous_sibling": "node_3_1684336605777"
+    },
+    {
+      "type": "standard",
+      "title": "HOMEBANKING, PAGO MIS CUENTAS / problema",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Lamento el inconveniente. Hicimos un cambio de plataforma para brindarte una mejor experiencia."
+              },
+              {
+                "text": "Para abonar por homebanking y Pagomiscuentas vas a necesitar ingresar los 16 números que figuran como referencia de pago, en la parte de arriba de tu factura donde está detallada tu información de cliente."
+              },
+              {
+                "text": "Tené en cuenta que ahora Telecom 4P es el servicio que figura para abonar en homebanking."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_7_1683304945083",
+      "conditions": "@mediosdepago:homebanking || @mediosdepago:(pago mis cuentas)",
+      "dialog_node": "node_3_1683306923332",
+      "previous_sibling": "node_6_1683311966617"
+    },
+    {
+      "type": "standard",
+      "title": "RAPIPAGO, PAGO FACIL, COBRO EXPRESS",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Lamento el inconveniente. Dejame que te ayude."
+              },
+              {
+                "text": "Para abonar en Pagofácil, Rapipago y Cobro Express solo vas a necesitar tu número de línea y el importe final. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_7_1683304945083",
+      "conditions": "@mediosdepago:(pago fácil) ||           @mediosdepago:(cobro express) || @mediosdepago:rapipago",
+      "dialog_node": "node_3_1683306936769",
+      "previous_sibling": "node_3_1683306923332"
+    },
+    {
+      "type": "standard",
+      "title": "No",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Gracias por comunicarte conmigo.<break time=\"600ms\"/> Antes de irte, <break time=\"300ms\"/>¿Te puedo invitar a participar de una breve encuesta? Me gustaría conocer tu opinión."
+              },
+              {
+                "text": "<break time=\"600ms\"/> ¡Un gusto haberte ayudado, <break time=\"300ms\"/>que termines bien tu día!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_2_1683308529619",
+      "conditions": "#No",
+      "dialog_node": "node_3_1683308550982"
+    },
+    {
+      "type": "standard",
+      "title": "No entendió BOT",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Discúlpame, no entendí, ¿me repetirías?"
+              },
+              {
+                "text": "¿Podrías reformular tu consulta? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1683306923332",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1684417057375"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_3_1683639231222",
+      "previous_sibling": "node_5_1683639773244"
+    },
+    {
+      "type": "standard",
+      "title": "No entendió USER  ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Te repito, por el momento, esa opción no está disponible. Si te parece, te podría ofrecer otros medios de pago"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_9_1683302473640",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1684418121079"
+      },
+      "conditions": "#Repetir",
+      "dialog_node": "node_3_1683723803388",
+      "previous_sibling": "node_4_1683310337440"
+    },
+    {
+      "type": "standard",
+      "title": "SI / Quiere pagar.",
+      "output": {},
+      "parent": "node_1_1684336605773",
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#Si",
+      "dialog_node": "node_3_1684336605777",
+      "previous_sibling": "node_2_1684336605777"
+    },
+    {
+      "type": "standard",
+      "title": "No entendió USER",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Dale, te repito. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1684414100060",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1684414100060"
+      },
+      "conditions": "#Repetir",
+      "dialog_node": "node_3_1684414100060",
+      "previous_sibling": "response_10_1684852985092"
+    },
+    {
+      "type": "standard",
+      "title": "NO/ No quiere mas ayuda",
+      "parent": "node_7_1683305111795",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1683308550982"
+      },
+      "conditions": "#No",
+      "dialog_node": "node_3_1684424289585",
+      "previous_sibling": "node_4_1684251307032"
+    },
+    {
+      "type": "standard",
+      "title": "SALDO A FAVOR O NADA (Saldo TOTAL <= 0)",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tu pago ya fue efectuado, no tenes ninguna deuda. ¿Te puedo ayudar en algo más?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1685457223977",
+      "conditions": "anything_else",
+      "dialog_node": "node_3_1685457398617",
+      "previous_sibling": "node_3_1685713510569"
+    },
+    {
+      "type": "standard",
+      "title": "Integración falla",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No pudimos realizar el pago. <break time=\"600ms\"/> Voy a derivarte con un representante para que continues con tu consulta. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1685539125226",
+      "dialog_node": "node_3_1685539125234",
+      "previous_sibling": "node_2_1685539125234"
+    },
+    {
+      "type": "standard",
+      "title": "SALDO A PAGAR PRUEBA",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Hiciste el pago dentro de los últimos 3 días?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1685457223977",
+      "conditions": "$saldoTotal > 0",
+      "dialog_node": "node_3_1685713510569",
+      "previous_sibling": "node_7_1685457417550"
+    },
+    {
+      "type": "standard",
+      "title": "NO HAY TARJETA",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No logre encontrar tu tarjeta, pero te puedo enseñar a pagar con otro medio de pago ¿Con cuál te gustaría avanzar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_62_1686143687137",
+      "context": {
+        "returnCode": 101
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_7_1683304945083"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_3_1686147322903",
+      "previous_sibling": "node_6_1686147324973"
+    },
+    {
+      "type": "standard",
+      "title": "NO / Algo más?  ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Te puedo ayudar con algo más?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1684336714459",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1684251421898"
+      },
+      "conditions": "#No",
+      "dialog_node": "node_32_1684414630268",
+      "previous_sibling": "node_10_1684336714463"
+    },
+    {
+      "type": "standard",
+      "title": "Tarjeta de crédito_DERIVA A REPRESENTANTE",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para hacer tu pago con tarjeta de crédito te voy a transferir a un representante. Aguardá unos instantes en línea. La conversación será reiniciada. Gracias por comunicarte conmigo!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1683304945083",
+      "context": {
+        "accion": "connect_to_agent#TTS",
+        "returnCode": 4,
+        "motivoTransferencia": "A2"
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "@mediosdepago:(tarjeta de credito)",
+      "dialog_node": "node_4_1683301762076",
+      "previous_sibling": "node_5_1683311406315"
+    },
+    {
+      "type": "standard",
+      "title": "IOS",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Te sugiero descargar la aplicación \"Mi Personal\" desde la App Store."
+              },
+              {
+                "text": "Ahora con la aplicación instalada, en el menú principal de \"Mi Personal\" vas a encontrar la sección de \"factura\", donde podés pagar tu línea."
+              },
+              {
+                "text": "Avísame si necestás que repitamos este paso"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_7_1683305349404",
+      "conditions": "@celular:IOS",
+      "dialog_node": "node_4_1683305578954",
+      "previous_sibling": "node_2_1683305516781"
+    },
+    {
+      "type": "standard",
+      "title": "Explicacion",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Es que estamos actualizando la plataforma y momentáneamente MercadoPago no está disponible. ¿Querés que te cuente sobre los otros medios de pago?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1683302473640",
+      "conditions": "@problemas",
+      "dialog_node": "node_4_1683310337440",
+      "previous_sibling": "node_5_1683310319120"
+    },
+    {
+      "type": "standard",
+      "title": "MI_PERSONAL- OTRAS OPCIONES",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Podes pagar desde la aplicación \"Mi personal\", ¿Tenes instalada la app? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1683304945083",
+      "conditions": "anything_else",
+      "dialog_node": "node_4_1683312137426",
+      "previous_sibling": "node_4_1683301762076"
+    },
+    {
+      "type": "standard",
+      "title": "Repetir instalación",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Te sugiero descargar la aplicación \"Mi Personal\" desde la App Store o Play Store, "
+              },
+              {
+                "text": "Ahora con la aplicación instalada, en el menú principal de \"Mi Personal\" vas a encontrar la sección de \"factura\", donde podés pagar tu línea."
+              },
+              {
+                "text": "Si necesitas más ayuda estoy a tu disposición"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1683305349404",
+      "conditions": "#Repetir",
+      "dialog_node": "node_4_1683637449716",
+      "previous_sibling": "node_4_1683305578954"
+    },
+    {
+      "type": "standard",
+      "title": "OK / Algo más?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Te puedo ayudar con algo más?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1683306923332",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1684251421898"
+      },
+      "conditions": "#Si",
+      "dialog_node": "node_4_1683639653721"
+    },
+    {
+      "type": "standard",
+      "title": "No entendió BOT  ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Discúlpame, no entendí, ¿me repetirías?"
+              },
+              {
+                "text": "¿Podrías reformular tu consulta? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1683302473640",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1684418121079"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_4_1683723812414",
+      "previous_sibling": "node_3_1683723803388"
+    },
+    {
+      "type": "standard",
+      "title": "Fallo integración - REPRESENTANTE",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No pude realizar el pago, te voy a comunicar con un representante para que continues tu consulta."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1683721176194",
+      "context": {
+        "accion": "connect_to_agent#TTS",
+        "returnCode": 4
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_4_1683897068850",
+      "previous_sibling": "node_1_1684414100054"
+    },
+    {
+      "type": "standard",
+      "title": "EPICA: Pagar el saldo.",
+      "output": {
+        "generic": []
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1683903445985"
+      },
+      "conditions": "",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1683897216453",
+      "previous_sibling": "node_1_1683721045515"
+    },
+    {
+      "type": "standard",
+      "title": "NOMBRA ALGUNA INTENCIÓN QUE CONOCEMOS_EC",
+      "parent": "node_1_1684246614628",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@mediosdepago || #InformarPago || #Saldo",
+      "dialog_node": "node_4_1684246653798",
+      "previous_sibling": "node_30_1684414554718"
+    },
+    {
+      "type": "standard",
+      "title": "SI / Cuales son.",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_1_1684246614628",
+      "conditions": "#Si",
+      "dialog_node": "node_4_1684246670000",
+      "previous_sibling": "node_6_1683644873212"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Dale, te repito."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1683305111795",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1683305111795"
+      },
+      "conditions": "#Repetir",
+      "dialog_node": "node_4_1684251307032"
+    },
+    {
+      "type": "standard",
+      "title": "SI - Jump to Medios de pago",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_2_1684414100060",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1683312137426"
+      },
+      "conditions": "#Si",
+      "dialog_node": "node_4_1684414100060",
+      "previous_sibling": "node_3_1684414100060"
+    },
+    {
+      "type": "standard",
+      "title": "SI - DENTRO DE LOS ÚLTIMOS 3 DÍAS",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Esta bien, recordá que tenes que esperar 72 horas para que el pago quede imputado."
+              },
+              {
+                "text": "¿Te puedo ayudar con algo más?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_7_1685457417550",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_3_1683308550982"
+      },
+      "conditions": "#Si || #PagoHaceMENOS || @sys-date <= today().minusDays(3) || @sys-date >= today().plusDays(4)",
+      "dialog_node": "node_4_1685457420039"
+    },
+    {
+      "type": "standard",
+      "title": "LLAMANDO ADAPTER",
+      "output": {},
+      "parent": "node_5_1685465853693",
+      "actions": [
+        {
+          "name": "canonicalService",
+          "type": "client",
+          "proxyId": 1,
+          "parameters": {
+            "param1": "$accountIntegrationId",
+            "param2": "FAN",
+            "param3": "$fechaHoraActualMenos6Meses",
+            "param4": "$fechaHoraActual",
+            "param5": 7,
+            "service_id": "100"
+          },
+          "result_variable": "result"
+        }
+      ],
+      "conditions": "false",
+      "dialog_node": "node_4_1685466282052"
+    },
+    {
+      "type": "standard",
+      "title": "NO ENTENDIO USER",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No es problema, te repito"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1685466284764",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1685466284764"
+      },
+      "conditions": "#Repetir",
+      "dialog_node": "node_4_1685466617579"
+    },
+    {
+      "type": "standard",
+      "title": "JUMP TO_NODO PRIMER HIJO_WI ",
+      "parent": "node_1_1685466284764",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_4_1685466617579"
+      },
+      "conditions": "false",
+      "dialog_node": "node_4_1685466637801",
+      "previous_sibling": "node_6_1685466610676"
+    },
+    {
+      "type": "standard",
+      "title": "No entendió USER",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Si! Por supuesto, <break time=\"300ms\"/>  ya te repito. Tu pago ya esta hecho! Gracias por comunicarte conmigo!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1685539125226",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1685539125234"
+      },
+      "conditions": "#Repetir",
+      "dialog_node": "node_4_1685539125234",
+      "previous_sibling": "node_3_1685539125234"
+    },
+    {
+      "type": "standard",
+      "title": "FALLO INTEGRACIÓN",
+      "parent": "node_2_1686147405358",
+      "conditions": "anything_else",
+      "dialog_node": "node_4_1686147414529",
+      "previous_sibling": "node_1_1686147413066"
+    },
+    {
+      "type": "standard",
+      "title": "EPICA: Pagar el saldo. - copy 1",
+      "output": {
+        "generic": []
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_45_1686143687137"
+      },
+      "conditions": "#quiero_pagar",
+      "dialog_node": "node_44_1686143687134",
+      "previous_sibling": "node_4_1683897216453"
+    },
+    {
+      "type": "standard",
+      "title": "Llamando adapter ",
+      "output": {},
+      "parent": "node_44_1686143687134",
+      "actions": [
+        {
+          "name": "canonicalService",
+          "type": "client",
+          "proxyId": 1,
+          "parameters": {
+            "param1": "$accountIntegrationId",
+            "param2": "FAN",
+            "param3": "$fechaHoraActualMenos6Meses",
+            "param4": "$fechaHoraActual",
+            "param5": 7,
+            "service_id": "100"
+          },
+          "result_variable": "result"
+        }
+      ],
+      "conditions": "false",
+      "dialog_node": "node_45_1686143687137"
+    },
+    {
+      "type": "standard",
+      "title": "Integración OK",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_45_1686143687137",
+      "context": {
+        "saldoTotal": "<? $result.saldoTotal.toDouble() ?>"
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "$httpResponseCode==200",
+      "dialog_node": "node_46_1686143687137"
+    },
+    {
+      "type": "standard",
+      "title": "SI - MÁS AYUDA (Nombra alguna intención que conocemos) ",
+      "output": {},
+      "parent": "node_3_1685457398617",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@mediosdepago || #InformarPago || #Saldo || #Si",
+      "dialog_node": "node_47_1685465643469"
+    },
+    {
+      "type": "standard",
+      "title": "SALDO 0 - JUMP TO épica medios de pago.",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tu saldo es de 0 pesos."
+              },
+              {
+                "text": "Te puedo decir otros medios de pago para que puedas usar la próxima vez que quieras pagar tu factura. ¿Cuál te gustaría conocer?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_46_1686143687137",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "$saldoTotal==0",
+      "dialog_node": "node_47_1686143687137"
+    },
+    {
+      "type": "standard",
+      "title": "No entendió USER",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Dale, te repito."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_47_1686143687137",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_47_1686143687137"
+      },
+      "conditions": "#Repetir",
+      "dialog_node": "node_48_1686143687137",
+      "previous_sibling": "response_57_1686143687137"
+    },
+    {
+      "type": "standard",
+      "title": "SI / Cuales son.",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_47_1686143687137",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1683304945083"
+      },
+      "conditions": "#Si",
+      "dialog_node": "node_49_1686143687137",
+      "previous_sibling": "node_48_1686143687137"
+    },
+    {
+      "type": "standard",
+      "title": "NO / Algo más? ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Te puedo ayudar con algo más?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_47_1686143687137",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1684251421898"
+      },
+      "conditions": "#No",
+      "dialog_node": "node_50_1686143687137",
+      "previous_sibling": "node_49_1686143687137"
+    },
+    {
+      "type": "standard",
+      "title": "NOMBRA ALGUNA INTENCIÓN QUE CONOCEMOS_EC",
+      "output": {},
+      "parent": "node_47_1686143687137",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@mediosdepago || #InformarPago || #Saldo",
+      "dialog_node": "node_51_1686143687137",
+      "previous_sibling": "node_50_1686143687137"
+    },
+    {
+      "type": "standard",
+      "title": "OK",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Te puedo ofrecer pagar desde la aplicación \"Mi Personal\", a través de la página de personal.com.ar/yopagoencasa, desde tu homebanking o en Pagomiscuentas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1683302473640",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1683308529619"
+      },
+      "conditions": "#Si",
+      "dialog_node": "node_5_1683310319120"
+    },
+    {
+      "type": "standard",
+      "title": "PÁGINA / Cómo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para pagar por la página podes ingresar en personal.com.ar/yopagoencasa, ingresar tu número de línea y elegir el monto que querés pagar."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1683304945083",
+      "context": {
+        "accion": "TTS#0"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1683308529619"
+      },
+      "conditions": "@mediosdepago:pagina",
+      "dialog_node": "node_5_1683311406315",
+      "previous_sibling": "node_9_1683302473640"
+    },
+    {
+      "type": "standard",
+      "title": "No entendió USER",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Por supuesto! Te repito. Lamentamos el inconveniente, se debe a que hicimos un cambio de plataforma con el fin de brindarte una mejor experiencia. <break time=\"600ms\"/> Podes abonar por homebanking y Pagomiscuentas vas a necesitar ingresar los 16 números que figuran como referencia de pago, en la parte de arriba de tu factura donde está detallada tu información de cliente. <break time=\"600ms\"/>"
+              },
+              {
+                "text": "Tené en cuenta que ahora Telecom 4P es el servicio que figura para abonar en homebanking."
+              },
+              {
+                "text": "¿Te puedo ayudar en algo más?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_3_1683306923332",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1684417057375"
+      },
+      "conditions": "#Repetir",
+      "dialog_node": "node_5_1683639773244",
+      "previous_sibling": "node_4_1683639653721"
+    },
+    {
+      "type": "standard",
+      "title": "No entendió USER ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Por el momento, no tengo esta opción disponible. Si te parece, te podría ofrecer otros medios de pago"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_5_1683311406315",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_5_1683310319120"
+      },
+      "conditions": "#Repetir",
+      "dialog_node": "node_5_1683723901354"
+    },
+    {
+      "type": "standard",
+      "title": "No entendió BOT",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Discúlpame, no entendí, ¿me repetirías?"
+              },
+              {
+                "text": "¿Podrías reformular tu consulta? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1684336605773",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1684336605777"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_5_1684336605777",
+      "previous_sibling": "node_1_1685463269140"
+    },
+    {
+      "type": "standard",
+      "title": "NOMBRA ALGUNA INTENCIÓN QUE CONOCEMOS",
+      "output": {},
+      "parent": "node_8_1684336714459",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@mediosdepago || #InformarPago || #Saldo",
+      "dialog_node": "node_5_1685463290306",
+      "previous_sibling": "node_32_1684414630268"
+    },
+    {
+      "type": "standard",
+      "title": "NO - HACE MAS DE 3 DIAS",
+      "parent": "node_7_1685457417550",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1685466282052"
+      },
+      "conditions": "#No || #PagoHaceMAS",
+      "dialog_node": "node_5_1685465853693",
+      "previous_sibling": "node_4_1685457420039"
+    },
+    {
+      "type": "standard",
+      "title": "No entendió BOT",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No entendí, podrías reformular tu consulta?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1685539125226",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1685539125234"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_5_1685539125234",
+      "previous_sibling": "node_4_1685539125234"
+    },
+    {
+      "type": "standard",
+      "title": "NO ENTENDIO BOT",
+      "parent": "node_8_1686147324087",
+      "conditions": "anything_else",
+      "dialog_node": "node_5_1686148231065",
+      "previous_sibling": "node_87_1686148247203"
+    },
+    {
+      "type": "standard",
+      "title": "SI - MÁS AYUDA (Nombra alguna intención que conocemos)",
+      "output": {},
+      "parent": "node_1_1685466284764",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@mediosdepago || #InformarPago || #Saldo || #Si",
+      "dialog_node": "node_52_1685466670641",
+      "previous_sibling": "node_4_1685466617579"
+    },
+    {
+      "type": "standard",
+      "title": "No entendió BOT",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Discúlpame, no entendí, ¿me repetirías?"
+              },
+              {
+                "text": "¿Podrías reformular tu consulta? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_47_1686143687137",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_56_1686143687137"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_55_1686143687137",
+      "previous_sibling": "node_51_1686143687137"
+    },
+    {
+      "type": "standard",
+      "title": "JUMP TO_NODO PRIMER HIJO_WI",
+      "output": {},
+      "parent": "node_47_1686143687137",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_48_1686143687137"
+      },
+      "conditions": "false",
+      "dialog_node": "node_56_1686143687137",
+      "previous_sibling": "node_55_1686143687137"
+    },
+    {
+      "type": "standard",
+      "title": "SALDO DEUDA - JUMP TO ADAPTER 18",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tenes una deuda de <break time=\"300ms\"/>  $saldoTotal pesos. "
+              },
+              {
+                "text": "¿Quéres avanzar con el pago ahora?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_46_1686143687137",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "$saldoTotal > 0",
+      "dialog_node": "node_58_1686143687137",
+      "previous_sibling": "node_47_1686143687137"
+    },
+    {
+      "type": "standard",
+      "title": "No entendió USER",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Dale, te repito. Tu saldo es de 0 pesos. Y puedo contarte sobre algunos medios de pago que tenemos. ¿Cuál te gustaría conocer?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_58_1686143687137",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_73_1686143687137"
+      },
+      "conditions": "#Repetir",
+      "dialog_node": "node_59_1686143687137",
+      "previous_sibling": "response_74_1686143687137"
+    },
+    {
+      "type": "standard",
+      "title": "SI / Quiere pagar.",
+      "output": {},
+      "parent": "node_58_1686143687137",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_61_1686143687137"
+      },
+      "conditions": "#Si",
+      "dialog_node": "node_60_1686143687137",
+      "previous_sibling": "node_59_1686143687137"
+    },
+    {
+      "type": "standard",
+      "title": "Llamando adapter PAGAR (18) ",
+      "output": {},
+      "parent": "node_60_1686143687137",
+      "actions": [
+        {
+          "name": "canonicalService",
+          "type": "client",
+          "parameters": {
+            "nro_linea": "$posdiscado",
+            "service_id": "18",
+            "resultPrivate": true
+          },
+          "result_variable": "result"
+        }
+      ],
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_62_1686143687137"
+      },
+      "conditions": "false",
+      "dialog_node": "node_61_1686143687137"
+    },
+    {
+      "type": "standard",
+      "title": "PAGINA / Inconveniente ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Lamento el inconveniente.<break time=\"600ms\"/> Déjame ofrecerte otra opción"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1683304945083",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1683312137426"
+      },
+      "conditions": "@mediosdepago:pagina && @problemas",
+      "dialog_node": "node_6_1683311966617"
+    },
+    {
+      "type": "standard",
+      "title": "No entendió USER",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Dale, te repito."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1684246614628",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1684246614628"
+      },
+      "conditions": "#Repetir",
+      "dialog_node": "node_6_1683644873212",
+      "previous_sibling": "response_9_1684249512216"
+    },
+    {
+      "type": "standard",
+      "title": "No entendió BOT",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Discúlpame, no entendí, ¿me repetirías?"
+              },
+              {
+                "text": "¿Podrías reformular tu consulta? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1684246614628",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1684248709308"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_6_1683723920492",
+      "previous_sibling": "node_4_1684246653798"
+    },
+    {
+      "type": "standard",
+      "title": "Integración FALLA",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No pude realizar el pago, <break time=\"600ms\"/>  te voy a comunicar con un representante para que continues tu consulta."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1683903445985",
+      "context": {
+        "accion": "connect_to_agent#TTS",
+        "returnCode": 4
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_6_1683903445987",
+      "previous_sibling": "node_2_1683903445987"
+    },
+    {
+      "type": "standard",
+      "title": "Jump to primer hijo EC_ Te puedo ayudar en algo más",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_7_1683305111795",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_4_1684251307032"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_6_1684251373845",
+      "previous_sibling": "node_22_1685464133269"
+    },
+    {
+      "type": "standard",
+      "title": "Jump to primer nodo hijo_WI",
+      "parent": "node_2_1683308529619",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_3_1683308550982"
+      },
+      "conditions": "false",
+      "dialog_node": "node_6_1684251421898",
+      "previous_sibling": "node_2_1683636231680"
+    },
+    {
+      "type": "standard",
+      "title": "Dijo alguna intencion que conocemos",
+      "parent": "node_2_1683308529619",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Saldo || #quiero_pagar || @mediosdepago || #InformarPago",
+      "dialog_node": "node_6_1684251884789",
+      "previous_sibling": "node_8_1683636408387"
+    },
+    {
+      "type": "standard",
+      "title": "JUMP TO_NODO PRIMER HIJO_WI",
+      "output": {},
+      "parent": "node_1_1684336605773",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_2_1684336605777"
+      },
+      "conditions": "false",
+      "dialog_node": "node_6_1684336605777",
+      "previous_sibling": "node_5_1684336605777"
+    },
+    {
+      "type": "standard",
+      "title": "No entendió BOT",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Discúlpame, no entendí, ¿me repetirías?"
+              },
+              {
+                "text": "¿Podrías reformular tu consulta? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1684414100060",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1684414100060"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_6_1684414100060",
+      "previous_sibling": "node_9_1685463420757"
+    },
+    {
+      "type": "standard",
+      "title": "EPICA: Informar un pago",
+      "output": {
+        "generic": []
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1685457220951"
+      },
+      "conditions": "#InformarPago",
+      "dialog_node": "node_6_1685454110780",
+      "previous_sibling": "node_44_1686143687134"
+    },
+    {
+      "type": "standard",
+      "title": "Llamando adapter",
+      "output": {},
+      "parent": "node_6_1685454110780",
+      "actions": [
+        {
+          "name": "canonicalService",
+          "type": "client",
+          "proxyId": 1,
+          "parameters": {
+            "param1": "$accountIntegrationId",
+            "param2": "FAN",
+            "param3": "$fechaHoraActualMenos6Meses",
+            "param4": "$fechaHoraActual",
+            "param5": 7,
+            "service_id": "100"
+          },
+          "result_variable": "result"
+        }
+      ],
+      "conditions": "false",
+      "dialog_node": "node_6_1685457220951"
+    },
+    {
+      "type": "standard",
+      "title": "Fallo integración - REPRESENTANTE",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Voy a comunicarte con un agente para que veas el caso. Gracias por comunicarte conmigo."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1685466282052",
+      "context": {
+        "accion": "connect_to_agent#TTS",
+        "returnCode": 4
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_6_1685466286463",
+      "previous_sibling": "node_1_1685466284764"
+    },
+    {
+      "type": "standard",
+      "title": "NO ENTENDIO BOT",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Discúlpame, no entendí, ¿podrías reformular tu respuesta?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1685466284764",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1685466637801"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_6_1685466610676",
+      "previous_sibling": "node_52_1685466670641"
+    },
+    {
+      "type": "standard",
+      "title": "JUMP TO_NODO PRIMER HIJO_WI ",
+      "output": {},
+      "parent": "node_1_1685539125226",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_9_1684336714463"
+      },
+      "conditions": "false",
+      "dialog_node": "node_6_1685539125234",
+      "previous_sibling": "node_5_1685539125234"
+    },
+    {
+      "type": "standard",
+      "title": "TARJETA VALIDA Y NO VENCIDA (HACER CONDICIÓN)",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Perfecto! Ya encontré tu tarjeta terminada en $UltDigitos"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_62_1686143687137",
+      "conditions": "",
+      "dialog_node": "node_6_1686147324973",
+      "previous_sibling": "node_8_1686147324087"
+    },
+    {
+      "type": "standard",
+      "title": "Integración OK",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "tu tarjeta vence el $MesVtoTarjeta del $AnioVtoTarjeta"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_61_1686143687137",
+      "context": {
+        "MesVtoTarjeta": "$result.mesVtoTarjeta",
+        "AnioVtoTarjeta": "$result.anioVtoTarjeta",
+        "UltDigitosTarjeta": "$result.ultimosDigTarjeta",
+        "marcaActivaTarjeta": "$result.marcaActivaTarjeta"
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "$httpResponseCode == 200 || $httpResponseCode == \"200\"",
+      "dialog_node": "node_62_1686143687137"
+    },
+    {
+      "type": "standard",
+      "title": "Integración falla",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No pudimos realizar el pago. <break time=\"600ms\"/> Voy a derivarte con un representante para que continues con tu consulta. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_61_1686143687137",
+      "conditions": "anything_else",
+      "dialog_node": "node_63_1686143687137",
+      "previous_sibling": "node_62_1686143687137"
+    },
+    {
+      "type": "standard",
+      "title": "NO / Algo más? ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Te puedo ayudar con algo más?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_58_1686143687137",
+      "context": {
+        "returnCode": 101
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1683308529619"
+      },
+      "conditions": "#No",
+      "dialog_node": "node_67_1686143687137",
+      "previous_sibling": "node_60_1686143687137"
+    },
+    {
+      "type": "standard",
+      "title": "NOMBRA ALGUNA INTENCIÓN QUE CONOCEMOS",
+      "output": {},
+      "parent": "node_58_1686143687137",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@mediosdepago || #InformarPago || #Saldo",
+      "dialog_node": "node_68_1686143687137",
+      "previous_sibling": "node_67_1686143687137"
+    },
+    {
+      "type": "standard",
+      "title": "EPICA: Métodos de pago",
+      "output": {
+        "generic": []
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#MediosDePago || @mediosdepago",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_7_1683304945083",
+      "previous_sibling": "node_6_1685454110780"
+    },
+    {
+      "type": "standard",
+      "title": "SI/ La tiene instalada",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Perfecto, en el menú principal de la app \"Mi personal\" vas a encontrar la sección \"factura\", donde podés pagar tu línea. <break time=\"600ms\"/> ¿Te puedo ayudar en algo más?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1683312137426",
+      "conditions": "#Si",
+      "dialog_node": "node_7_1683305111795"
+    },
+    {
+      "type": "standard",
+      "title": "NO/ No la tiene instalada",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No te preocupes. Te puedo ayudar a descargarla. <break time=\"600ms\"/> ¿Qué celular tenés?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1683312137426",
+      "conditions": "#No",
+      "dialog_node": "node_7_1683305349404",
+      "previous_sibling": "node_7_1683305111795"
+    },
+    {
+      "type": "standard",
+      "title": "No quiere descargar la app",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Entiendo! Entonces te puedo ofrecer pagar en la página de personal.com.ar/yopagoencasa, en el homebanking o en Pagomiscuentas. También con tarjeta de crédito, débito o en efectivo. <break time=\"600ms\"/> ¿Te puedo ayudar con algo más?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1683312137426",
+      "conditions": "#NoLeInteresa",
+      "dialog_node": "node_7_1683306075584",
+      "previous_sibling": "node_7_1683305349404"
+    },
+    {
+      "type": "standard",
+      "title": "MÁS AYUDA / Reinicia conversación",
+      "parent": "node_2_1683308529619",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1683301583386"
+      },
+      "conditions": "#Si",
+      "dialog_node": "node_7_1683308653480",
+      "previous_sibling": "node_3_1683308550982"
+    },
+    {
+      "type": "standard",
+      "title": "OK",
+      "parent": "node_3_1683306936769",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1684251421898"
+      },
+      "conditions": "#Si",
+      "dialog_node": "node_7_1683309914807",
+      "previous_sibling": "node_8_1683309131082"
+    },
+    {
+      "type": "standard",
+      "title": "OK",
+      "parent": "node_4_1683310337440",
+      "conditions": "#Si",
+      "dialog_node": "node_7_1683310602736",
+      "previous_sibling": "node_2_1683310424799"
+    },
+    {
+      "type": "standard",
+      "title": "No entendio",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No entendí, ¿podrías reformular tu consulta?"
+              },
+              {
+                "text": "¿Puede expresarse con otras palabras?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_7_1683305349404",
+      "conditions": "anything_else",
+      "dialog_node": "node_7_1683637607743",
+      "previous_sibling": "node_4_1683637449716"
+    },
+    {
+      "type": "standard",
+      "title": "No entendió BOT",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Discúlpame, no entendí, ¿me repetirías?"
+              },
+              {
+                "text": "¿Podrías reformular tu consulta? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1683306936769",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1684418009261"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_7_1683640185628",
+      "previous_sibling": "node_8_1683640210426"
+    },
+    {
+      "type": "standard",
+      "title": "JUMP TO_NODO PRIMER HIJO_WI",
+      "output": {},
+      "parent": "node_2_1684414100060",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_3_1684414100060"
+      },
+      "conditions": "false",
+      "dialog_node": "node_7_1684414100060",
+      "previous_sibling": "node_6_1684414100060"
+    },
+    {
+      "type": "standard",
+      "title": "SALDO A PAGAR (Saldo TOTAL > 0)",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Hiciste el pago dentro de los últimos 3 días?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1685457223977",
+      "context": {},
+      "conditions": "$saldoTotal > 0",
+      "dialog_node": "node_7_1685457417550"
+    },
+    {
+      "type": "standard",
+      "title": "No - FINALIZA CONVERSACIÖN",
+      "parent": "node_3_1685457398617",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1683308550982"
+      },
+      "conditions": "#No",
+      "dialog_node": "node_7_1685458717232",
+      "previous_sibling": "node_47_1685465643469"
+    },
+    {
+      "type": "standard",
+      "title": "NO ENTENDIO BOT",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Discúlpame, no entendí, ¿me repetirías?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1685457420039",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_27_1685465445099"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_7_1685465413417",
+      "previous_sibling": "node_1_1685465381715"
+    },
+    {
+      "type": "standard",
+      "title": "Saldo a pagar prueba",
+      "parent": "node_3_1685713510569",
+      "conditions": "@sys-date < today() && @sys-date > today().plusDays(4) || @sys-date > today().minusDays(3)",
+      "dialog_node": "node_7_1685713029052"
+    },
+    {
+      "type": "standard",
+      "title": "No entendió BOT",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Discúlpame, no entendí, ¿me repetirías?"
+              },
+              {
+                "text": "¿Podrías reformular tu consulta? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_58_1686143687137",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_73_1686143687137"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_72_1686143687137",
+      "previous_sibling": "node_68_1686143687137"
+    },
+    {
+      "type": "standard",
+      "title": "JUMP TO_NODO PRIMER HIJO_WI",
+      "output": {},
+      "parent": "node_58_1686143687137",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_59_1686143687137"
+      },
+      "conditions": "false",
+      "dialog_node": "node_73_1686143687137",
+      "previous_sibling": "node_72_1686143687137"
+    },
+    {
+      "type": "standard",
+      "title": "SALDO < 0 - JUMP TO épica medios de pago",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tu saldo es de $saldoTotal pesos. <break time=\"600ms\"/> ¿Querés que te cuente sobre métodos de pago para la próxima vez que tengas que pagar tu factura?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_46_1686143687137",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "$saldoTotal < 0",
+      "dialog_node": "node_75_1686143687137",
+      "previous_sibling": "node_58_1686143687137"
+    },
+    {
+      "type": "standard",
+      "title": "No entendió USER",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Dale, te repito. Tu saldo es de 0 pesos. Y puedo contarte sobre algunos medios de pago que tenemos. ¿Cuál te gustaría conocer?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_75_1686143687137",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_84_1686143687137"
+      },
+      "conditions": "#Repetir",
+      "dialog_node": "node_76_1686143687137",
+      "previous_sibling": "response_85_1686143687137"
+    },
+    {
+      "type": "standard",
+      "title": "SI / Cuales son",
+      "output": {},
+      "parent": "node_75_1686143687137",
+      "conditions": "#Si",
+      "dialog_node": "node_77_1686143687137",
+      "previous_sibling": "node_76_1686143687137"
+    },
+    {
+      "type": "standard",
+      "title": "NO / Algo más?  ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Te puedo ayudar con algo más?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_75_1686143687137",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1684251421898"
+      },
+      "conditions": "#No",
+      "dialog_node": "node_78_1686143687137",
+      "previous_sibling": "node_77_1686143687137"
+    },
+    {
+      "type": "standard",
+      "title": "NOMBRA ALGUNA INTENCIÓN QUE CONOCEMOS",
+      "output": {},
+      "parent": "node_75_1686143687137",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@mediosdepago || #InformarPago || #Saldo",
+      "dialog_node": "node_79_1686143687137",
+      "previous_sibling": "node_78_1686143687137"
+    },
+    {
+      "type": "standard",
+      "title": "PROBLEMA",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Te recomiendo ir a una tienda oficial de Pagofácil, Rapipago o Cobro Express para que puedas realizar tu pago."
+              },
+              {
+                "text": "Si queres también te puedo ofrecer otros medios de pago"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_3_1683306936769",
+      "conditions": "@problemas",
+      "dialog_node": "node_8_1683309131082"
+    },
+    {
+      "type": "standard",
+      "title": "No entendio USER / Reincia conversación",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¡No es problema! Vamos devuelta"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1683308529619",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1683301583386"
+      },
+      "conditions": "#Repetir",
+      "dialog_node": "node_8_1683636408387",
+      "previous_sibling": "node_7_1683308653480"
+    },
+    {
+      "type": "standard",
+      "title": "No entendió USER",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Lamento el inconveniente. Dejame que te ayude."
+              },
+              {
+                "text": "Para abonar en Pagofácil, Rapipago y Cobro Express solo vas a necesitar tu número de línea y el importe final."
+              },
+              {
+                "text": "Si queres también te puedo ofrecer otros medios de pago"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_3_1683306936769",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1684418009261"
+      },
+      "conditions": "#Repetir",
+      "dialog_node": "node_8_1683640210426",
+      "previous_sibling": "node_7_1683309914807"
+    },
+    {
+      "type": "standard",
+      "title": "SALDO < 0 - JUMP TO épica medios de pago",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tu saldo es de $saldoTotal pesos. <break time=\"600ms\"/> ¿Querés que te cuente sobre métodos de pago para la próxima vez que tengas que pagar tu factura?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_2_1683903445987",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "$saldoTotal < 0",
+      "dialog_node": "node_8_1684336714459",
+      "previous_sibling": "node_1_1684336605773"
+    },
+    {
+      "type": "standard",
+      "title": "NO / Algo más?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Te puedo ayudar con algo más?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1684414100060",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1684251421898"
+      },
+      "conditions": "#No",
+      "dialog_node": "node_8_1684414436833",
+      "previous_sibling": "node_13_1685463449748"
+    },
+    {
+      "type": "standard",
+      "title": "JUMP TO_NODO PRIMER HIJO_WI",
+      "parent": "node_4_1683312137426",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_7_1683305111795"
+      },
+      "conditions": "false",
+      "dialog_node": "node_8_1684416183216",
+      "previous_sibling": "node_11_1683640719695"
+    },
+    {
+      "type": "standard",
+      "title": "TARJETA NO VALIDA/VENCIDA (HACER CONDICIÓN)",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Veo que la tarjeta registrada no es valida o está vencida. ¿Quéres que te ofrezca otros medios de pago?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_62_1686143687137",
+      "conditions": "",
+      "dialog_node": "node_8_1686147324087"
+    },
+    {
+      "type": "standard",
+      "title": "NO ENTENDIO USER",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No es problema, te repito"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1686147324087",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1686147324087"
+      },
+      "conditions": "#Repetir",
+      "dialog_node": "node_8_1686148219758",
+      "previous_sibling": "node_9_1686148175669"
+    },
+    {
+      "type": "standard",
+      "title": "No entendió BOT",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Discúlpame, no entendí, ¿me repetirías?"
+              },
+              {
+                "text": "¿Podrías reformular tu consulta? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_75_1686143687137",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_84_1686143687137"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_83_1686143687137",
+      "previous_sibling": "node_79_1686143687137"
+    },
+    {
+      "type": "standard",
+      "title": "JUMP TO_NODO PRIMER HIJO_WI",
+      "output": {},
+      "parent": "node_75_1686143687137",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_76_1686143687137"
+      },
+      "conditions": "false",
+      "dialog_node": "node_84_1686143687137",
+      "previous_sibling": "node_83_1686143687137"
+    },
+    {
+      "type": "standard",
+      "title": "Integración FALLA",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No pude realizar el pago, <break time=\"600ms\"/>  te voy a comunicar con un representante para que continues tu consulta."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_45_1686143687137",
+      "context": {
+        "accion": "connect_to_agent#TTS",
+        "returnCode": 4
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_86_1686143687137",
+      "previous_sibling": "node_46_1686143687137"
+    },
+    {
+      "type": "standard",
+      "title": "NOMBRA ALGUNA INTENCIÓN QUE CONOCEMOS - copy 1",
+      "output": {},
+      "parent": "node_8_1686147324087",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@mediosdepago || #InformarPago || #Saldo",
+      "dialog_node": "node_87_1686148247203",
+      "previous_sibling": "node_8_1686148219758"
+    },
+    {
+      "type": "standard",
+      "title": "JUMP TO_NODO PRIMER HIJO_WI ",
+      "output": {},
+      "parent": "node_8_1686147324087",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_2_1686148174192"
+      },
+      "conditions": "false",
+      "dialog_node": "node_91_1686148278184",
+      "previous_sibling": "node_5_1686148231065"
+    },
+    {
+      "type": "standard",
+      "title": "MERCADO PAGO",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Por el momento, no tengo esta opción disponible. Si te parece, te podría ofrecer otros medios de pago"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1683304945083",
+      "conditions": "@mediosdepago:(mercado pago)",
+      "dialog_node": "node_9_1683302473640",
+      "previous_sibling": "node_3_1683306936769"
+    },
+    {
+      "type": "standard",
+      "title": "No entendió USER",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Dale, te repito. Tu saldo es de 0 pesos. Y puedo contarte sobre algunos medios de pago que tenemos. ¿Cuál te gustaría conocer?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1684336714459",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_13_1684336714463"
+      },
+      "conditions": "#Repetir",
+      "dialog_node": "node_9_1684336714463",
+      "previous_sibling": "response_14_1684336714463"
+    },
+    {
+      "type": "standard",
+      "title": "SALDO DEUDA- JUMP TO épica medios de pago",
+      "parent": "node_1_1684414100054",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "$saldoTotal > 0",
+      "dialog_node": "node_9_1684414100060",
+      "previous_sibling": "node_2_1684414100060"
+    },
+    {
+      "type": "standard",
+      "title": "Integración OK",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1685457220951",
+      "context": {
+        "today": "<? today() ?>",
+        "saldoTotal": "<? $result.saldoTotal.toDouble() ?>",
+        "dictadoFecha": "<say-as interpret-as=\"date\" format=\"mmdd\" detail=\"1\"><?$result.fechaVencUltimaFactura.substring(5, 10) ?></say-as>",
+        "todayMenos3Dias": "<? today() ?>.minusDays(3)",
+        "fechaVencUltimaFactura": "$result.fechaVencUltimaFactura"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_7_1685457417550"
+      },
+      "conditions": "$httpResponseCode==200",
+      "dialog_node": "node_9_1685457223977"
+    },
+    {
+      "type": "standard",
+      "title": "Fallo integración _ REPRESENTATNE",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No puedo ayudarte con tu problema, te voy a comunicar con un representante para que continues tu consulta."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1685457220951",
+      "context": {
+        "accion": "connect_to_agent#TTS",
+        "returnCode": 4
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_9_1685457226201",
+      "previous_sibling": "node_9_1685457223977"
+    },
+    {
+      "type": "standard",
+      "title": "NOMBRA ALGUNA INTENCIÓN QUE CONOCEMOS ",
+      "output": {},
+      "parent": "node_2_1684414100060",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@mediosdepago || #InformarPago || #Saldo",
+      "dialog_node": "node_9_1685463420757",
+      "previous_sibling": "node_29_1684414536956"
+    },
+    {
+      "type": "standard",
+      "title": "NO - ALGO MÁS?",
+      "parent": "node_8_1686147324087",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1683308529619"
+      },
+      "conditions": "#No",
+      "dialog_node": "node_9_1686148175669",
+      "previous_sibling": "node_2_1686148174192"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¡Buenas tardes! <break time=\"300ms\"/> Soy TECO, el asistente virtual de atención al cliente de Telecom.  "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Bienvenido",
+      "conditions": "now().after('12:00:00') and now().before('16:59:59')",
+      "dialog_node": "response_10_1683301493568",
+      "previous_sibling": "response_7_1683301451630"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1684251884789",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_6_1683311966617"
+      },
+      "conditions": "@mediosdepago",
+      "dialog_node": "response_10_1684418477148",
+      "previous_sibling": "response_7_1684418430662"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tu saldo es de 0 pesos y venció hoy. ¿Te interesa que te diga otros medios de pago para que puedas usar la próxima vez que quieras pagar tu factura?."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1684414100060",
+      "conditions": "anything_else",
+      "dialog_node": "response_10_1684852985092",
+      "previous_sibling": "response_7_1684852859278"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1685463420757",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1683304945083"
+      },
+      "conditions": "@mediosdepago",
+      "dialog_node": "response_10_1685463420759"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Contame, ¿con que puedo ayudarte?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_22_1685464133269",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_6_1684251373845"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "response_10_1685464157692",
+      "previous_sibling": "response_25_1685464133272"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1685463420757",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1685454110780"
+      },
+      "conditions": "#InformarPago",
+      "dialog_node": "response_11_1685463420759",
+      "previous_sibling": "response_10_1685463420759"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1685463420757",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1683897216453"
+      },
+      "conditions": "#Saldo",
+      "dialog_node": "response_12_1685463420759",
+      "previous_sibling": "response_11_1685463420759"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tu saldo es de 0 pesos"
+              },
+              {
+                "text": "¿Te puedo decir otros medios de pago para que puedas usar la próxima vez que quieras pagar tu factura. ¿Cuál te gustaría conocer?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_8_1684336714459",
+      "disabled": true,
+      "conditions": "anything_else",
+      "dialog_node": "response_14_1684336714463"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_13_1685463449748",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1683304945083"
+      },
+      "conditions": "@mediosdepago",
+      "dialog_node": "response_14_1685463449750"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tenes saldo a pagar, <break time=\"300ms\"/> este es de $saldoTotal pesos y venció el día de hoy. ¿Quéres que avancemos con el pago ahora?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1684414100060",
+      "conditions": "anything_else",
+      "dialog_node": "response_15_1684414100060",
+      "previous_sibling": "response_2_1684853171593"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_13_1685463449748",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1685454110780"
+      },
+      "conditions": "#InformarPago",
+      "dialog_node": "response_15_1685463449750",
+      "previous_sibling": "response_14_1685463449750"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_13_1685463449748",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1683897216453"
+      },
+      "conditions": "#Saldo",
+      "dialog_node": "response_16_1685463449750",
+      "previous_sibling": "response_15_1685463449750"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_17_1685463465489",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1683304945083"
+      },
+      "conditions": "@mediosdepago",
+      "dialog_node": "response_18_1685463465491"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_17_1685463465489",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1685454110780"
+      },
+      "conditions": "#InformarPago",
+      "dialog_node": "response_19_1685463465491",
+      "previous_sibling": "response_18_1685463465491"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_17_1685463465489",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1683897216453"
+      },
+      "conditions": "#Saldo",
+      "dialog_node": "response_20_1685463465491",
+      "previous_sibling": "response_19_1685463465491"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tenes saldo a pagar, <break time=\"300ms\"/> este es de $saldoTotal pesos y vence el $dictadoFecha.¿Quéres que avancemos con el pago ahora?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1684414100060",
+      "conditions": "today().before($fechaVencUltimaFactura)",
+      "dialog_node": "response_2_1684853171593",
+      "previous_sibling": "response_4_1684853093030"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1684246653798",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1685454110780"
+      },
+      "conditions": "#InformarPago",
+      "dialog_node": "response_2_1685463194213",
+      "previous_sibling": "response_8_1685463168657"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1685463269140",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1683304945083"
+      },
+      "conditions": "@mediosdepago",
+      "dialog_node": "response_2_1685463269146"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_22_1685464133269",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1683304945083"
+      },
+      "conditions": "@mediosdepago",
+      "dialog_node": "response_23_1685464133272"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_22_1685464133269",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1685454110780"
+      },
+      "conditions": "#InformarPago",
+      "dialog_node": "response_24_1685464133272",
+      "previous_sibling": "response_23_1685464133272"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_22_1685464133269",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1683897216453"
+      },
+      "conditions": "#Saldo",
+      "dialog_node": "response_25_1685464133272",
+      "previous_sibling": "response_24_1685464133272"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tu saldo es de $saldoTotal pesos y vence hoy. <break time=\"600ms\"/> ¿Te interesa que te diga otros medios de pago para que puedas usar la próxima vez que quieras pagar tu factura?. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_16_1684414100060",
+      "conditions": "anything_else",
+      "dialog_node": "response_28_1684414100060",
+      "previous_sibling": "response_4_1684853465079"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_28_1685465512238",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1683304945083"
+      },
+      "conditions": "@mediosdepago",
+      "dialog_node": "response_29_1685465512239"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_28_1685465512238",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1685454110780"
+      },
+      "conditions": "#InformarPago",
+      "dialog_node": "response_30_1685465512239",
+      "previous_sibling": "response_29_1685465512239"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_28_1685465512238",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1683897216453"
+      },
+      "conditions": "#Saldo",
+      "dialog_node": "response_31_1685465512239",
+      "previous_sibling": "response_30_1685465512239"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para hacer tu pago con tarjeta de crédito te voy a transferir a un representante. Aguardá unos instantes en línea. La conversación será reiniciada. Gracias por comunicarte conmigo!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1683301762076",
+      "disabled": true,
+      "dialog_node": "response_3_1683558847751"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1684246653798",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1683897216453"
+      },
+      "conditions": "#Saldo",
+      "dialog_node": "response_3_1685463211725",
+      "previous_sibling": "response_2_1685463194213"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1685463269140",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1685454110780"
+      },
+      "conditions": "#InformarPago",
+      "dialog_node": "response_3_1685463269146",
+      "previous_sibling": "response_2_1685463269146"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Contame, ¿con que puedo ayudarte?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_28_1685465512238",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_6_1684251373845"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "response_32_1685465512239",
+      "previous_sibling": "response_31_1685465512239"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tenes saldo a pagar, <break time=\"300ms\"/> este es de $saldoTotal pesos y venció el $dictadoFecha ¿Quéres que avancemos con el pago ahora?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1684414100060",
+      "conditions": "today().after($fechaVencUltimaFactura)",
+      "dialog_node": "response_4_1684853093030"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tu saldo a favor es de $saldoTotal pesos y venció el $dictadoFecha. <break time=\"600ms\"/> ¿Te interesa que te diga otros medios de pago para que puedas usar la próxima vez que quieras pagar tu factura?. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_16_1684414100060",
+      "conditions": "today().after($fechaVencUltimaFactura)",
+      "dialog_node": "response_4_1684853266277"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tu saldo a favor es de $saldoTotal pesos y vence el $dictadoFecha.<break time=\"600ms\"/> ¿Te interesa que te diga otros medios de pago para que puedas usar la próxima vez que quieras pagar tu factura?. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_16_1684414100060",
+      "conditions": "today().before($fechaVencUltimaFactura)",
+      "dialog_node": "response_4_1684853465079",
+      "previous_sibling": "response_4_1684853266277"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1685463269140",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1683897216453"
+      },
+      "conditions": "#Saldo",
+      "dialog_node": "response_4_1685463269146",
+      "previous_sibling": "response_3_1685463269146"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_47_1685465643469",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1683304945083"
+      },
+      "conditions": "@mediosdepago",
+      "dialog_node": "response_48_1685465643471"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_47_1685465643469",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1685454110780"
+      },
+      "conditions": "#InformarPago",
+      "dialog_node": "response_49_1685465643471",
+      "previous_sibling": "response_48_1685465643471"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_47_1685465643469",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1683897216453"
+      },
+      "conditions": "#Saldo",
+      "dialog_node": "response_50_1685465643471",
+      "previous_sibling": "response_49_1685465643471"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Contame, ¿con que puedo ayudarte?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_47_1685465643469",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_6_1684251373845"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "response_51_1685465643471",
+      "previous_sibling": "response_50_1685465643471"
+    },
+    {
+      "type": "response_condition",
+      "output": {},
+      "parent": "node_6_1684251884789",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1684414100060"
+      },
+      "conditions": "#Saldo",
+      "dialog_node": "response_5_1684418351900"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_51_1686143687137",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1683304945083"
+      },
+      "conditions": "@mediosdepago",
+      "dialog_node": "response_52_1686143687137"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_52_1685466670641",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1683304945083"
+      },
+      "conditions": "@mediosdepago",
+      "dialog_node": "response_53_1685466670643"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_51_1686143687137",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1685454110780"
+      },
+      "conditions": "#InformarPago",
+      "dialog_node": "response_53_1686143687137",
+      "previous_sibling": "response_52_1686143687137"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_52_1685466670641",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1685454110780"
+      },
+      "conditions": "#InformarPago",
+      "dialog_node": "response_54_1685466670643",
+      "previous_sibling": "response_53_1685466670643"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_51_1686143687137",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_44_1686143687134"
+      },
+      "conditions": "#Saldo",
+      "dialog_node": "response_54_1686143687137",
+      "previous_sibling": "response_53_1686143687137"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_52_1685466670641",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1683897216453"
+      },
+      "conditions": "#Saldo",
+      "dialog_node": "response_55_1685466670643",
+      "previous_sibling": "response_54_1685466670643"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Contame, ¿con que puedo ayudarte?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_52_1685466670641",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_6_1684251373845"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "response_56_1685466670643",
+      "previous_sibling": "response_55_1685466670643"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tu saldo es de 0 pesos"
+              },
+              {
+                "text": "¿Te puedo decir otros medios de pago para que puedas usar la próxima vez que quieras pagar tu factura. ¿Cuál te gustaría conocer?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_47_1686143687137",
+      "disabled": true,
+      "conditions": "anything_else",
+      "dialog_node": "response_57_1686143687137"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1685463290306",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1683304945083"
+      },
+      "conditions": "@mediosdepago",
+      "dialog_node": "response_6_1685463290309"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_68_1686143687137",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1683304945083"
+      },
+      "conditions": "@mediosdepago",
+      "dialog_node": "response_69_1686143687137"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_68_1686143687137",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1685454110780"
+      },
+      "conditions": "#InformarPago",
+      "dialog_node": "response_70_1686143687137",
+      "previous_sibling": "response_69_1686143687137"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_68_1686143687137",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_44_1686143687134"
+      },
+      "conditions": "#Saldo",
+      "dialog_node": "response_71_1686143687137",
+      "previous_sibling": "response_70_1686143687137"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¡Buenos días! <break time=\"300ms\"/> Soy TECO, el asistente virtual de atención al cliente de Telecom. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Bienvenido",
+      "conditions": "now().after('04:00:00')",
+      "dialog_node": "response_7_1683301451630",
+      "previous_sibling": "node_10_1683301583386"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tu saldo es de 0 pesos"
+              },
+              {
+                "text": "¿Te puedo decir otros medios de pago para que puedas usar la próxima vez que quieras pagar tu factura. ¿Cuál te gustaría conocer?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_1_1684336605773",
+      "disabled": true,
+      "conditions": "anything_else",
+      "dialog_node": "response_7_1684336605777"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1684251884789",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_1_1684246614628"
+      },
+      "conditions": "#quiero_pagar",
+      "dialog_node": "response_7_1684418430662",
+      "previous_sibling": "response_5_1684418351900"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tu saldo es de 0 pesos y vence el $dictadoFecha. ¿Te interesa que te diga otros medios de pago para que puedas usar la próxima vez que quieras pagar tu factura?. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1684414100060",
+      "conditions": "today().before($fechaVencUltimaFactura)",
+      "dialog_node": "response_7_1684852859278",
+      "previous_sibling": "response_8_1684414100060"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1685463290306",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1685454110780"
+      },
+      "conditions": "#InformarPago",
+      "dialog_node": "response_7_1685463290309",
+      "previous_sibling": "response_6_1685463290309"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tu saldo es de 0 pesos"
+              },
+              {
+                "text": "¿Te puedo decir otros medios de pago para que puedas usar la próxima vez que quieras pagar tu factura. ¿Cuál te gustaría conocer?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_58_1686143687137",
+      "disabled": true,
+      "conditions": "anything_else",
+      "dialog_node": "response_74_1686143687137"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_79_1686143687137",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1683304945083"
+      },
+      "conditions": "@mediosdepago",
+      "dialog_node": "response_80_1686143687137"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_79_1686143687137",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1685454110780"
+      },
+      "conditions": "#InformarPago",
+      "dialog_node": "response_81_1686143687137",
+      "previous_sibling": "response_80_1686143687137"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tu saldo es de 0 pesos y venció el $dictadoFecha. ¿Te interesa que te diga otros medios de pago para que puedas usar la próxima vez que quieras pagar tu factura?. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_2_1684414100060",
+      "conditions": "today().after($fechaVencUltimaFactura)",
+      "dialog_node": "response_8_1684414100060"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1684246653798",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1683304945083"
+      },
+      "conditions": "@mediosdepago",
+      "dialog_node": "response_8_1685463168657"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1685463290306",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1683897216453"
+      },
+      "conditions": "#Saldo",
+      "dialog_node": "response_8_1685463290309",
+      "previous_sibling": "response_7_1685463290309"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_79_1686143687137",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_44_1686143687134"
+      },
+      "conditions": "#Saldo",
+      "dialog_node": "response_82_1686143687137",
+      "previous_sibling": "response_81_1686143687137"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tu saldo es de 0 pesos"
+              },
+              {
+                "text": "¿Te puedo decir otros medios de pago para que puedas usar la próxima vez que quieras pagar tu factura. ¿Cuál te gustaría conocer?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_75_1686143687137",
+      "disabled": true,
+      "conditions": "anything_else",
+      "dialog_node": "response_85_1686143687137"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_87_1686148247203",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1683304945083"
+      },
+      "conditions": "@mediosdepago",
+      "dialog_node": "response_88_1686148247208"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_87_1686148247203",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1685454110780"
+      },
+      "conditions": "#InformarPago",
+      "dialog_node": "response_89_1686148247208",
+      "previous_sibling": "response_88_1686148247208"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_87_1686148247203",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1683897216453"
+      },
+      "conditions": "#Saldo",
+      "dialog_node": "response_90_1686148247208",
+      "previous_sibling": "response_89_1686148247208"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¡Buenas noches! <break time=\"300ms\"/> Soy TECO, el asistente virtual de atención al cliente de Telecom. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Bienvenido",
+      "conditions": "now().after('17:00:00')",
+      "dialog_node": "response_9_1683301565058",
+      "previous_sibling": "response_10_1683301493568"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tu saldo es de 0 pesos"
+              },
+              {
+                "text": "¿Te puedo decir otros medios de pago para que puedas usar la próxima vez que quieras pagar tu factura. ¿Cuál te gustaría conocer?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_1_1684246614628",
+      "disabled": true,
+      "conditions": "anything_else",
+      "dialog_node": "response_9_1684249512216"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_6_1684251884789",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1685454110780"
+      },
+      "conditions": "#InformarPago",
+      "dialog_node": "response_9_1685463319978",
+      "previous_sibling": "response_10_1684418477148"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "nlp": {
+      "model": "latest"
+    },
+    "disambiguation": {
+      "prompt": "Querías decir:",
+      "enabled": false,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Ninguna de las anteriores"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Querías decir:"
+    },
+    "intent_classification": {
+      "training_backend_version": "v2"
+    }
+  },
+  "learning_opt_out": false,
+  "language": "es",
+  "description": "",
+  "name": "SantiBurgos_Test-dialog"
+}
