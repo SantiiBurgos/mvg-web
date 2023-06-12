@@ -5,7 +5,7 @@
   "main": "index.js",
   "author": "Creative Tim",
   "license": "MIT",
-  "homepage": "https://santiiburgos.github.io/MalvinasGaming/",
+  "homepage": "https://santiiburgos.github.io/mvg-web/",
   "keywords": [
     "react"
   ],
@@ -43,15 +43,12 @@
     "typescript": "4.7.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
-    "compile-sass": "sass src/assets/scss/blk-design-system-react.scss src/assets/css/blk-design-system-react.css",
-    "minify-sass": "sass src/assets/scss/blk-design-system-react.scss src/assets/css/blk-design-system-react.min.css --style compressed"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

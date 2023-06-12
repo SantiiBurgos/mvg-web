@@ -42,7 +42,6 @@ root.render(
         path="/lol"
         render={(props) => <LOL {...props} />}
       />
-      <Redirect from="/" to="/components" />
     </Switch>
   </BrowserRouter>
 );
