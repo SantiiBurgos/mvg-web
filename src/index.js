@@ -27,21 +27,22 @@ root.render(
         render={(props) => <RegisterPage {...props} />}
       />
       <Route
-        path="./sobrenosotros"
+        path="/sobrenosotros"
         render={(props) => <ProfilePage {...props} />}
       />
       <Route
-        path="./r6"
+        path="/r6"
         render={(props) => <R6 {...props} />}
       />
       <Route
-        path="./mlbb"
+        path="/mlbb"
         render={(props) => <MLBB {...props} />}
       />
       <Route
-        path="./lol"
+        path="/lol"
         render={(props) => <LOL {...props} />}
       />
+      <Redirect from="/" to="/components" />
     </Switch>
   </BrowserRouter>
 );
