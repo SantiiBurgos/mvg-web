@@ -20,7 +20,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <Switch>
-      <Route path="/inicio"
+      <Route path="/"
        render={(props) => <Index {...props} />} />
       <Route
         path="/equipos"
@@ -42,7 +42,6 @@ root.render(
         path="/lol"
         render={(props) => <LOL {...props} />}
       />
-      <Redirect from="/" to="/inicio" />
     </Switch>
   </BrowserRouter>
 );
