@@ -97,7 +97,7 @@ export default function RegisterPage() {
           />
 
             <br />
-            <a href="/r6"><p>Rainbow Six</p></a>
+            <a href="r6"><p>Rainbow Six</p></a>
           </div>
         </div>
         <div class="product">
