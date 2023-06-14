@@ -97,7 +97,7 @@ export default function RegisterPage() {
           />
 
             <br />
-            <Link to="/r6"><p>Rainbow Six</p></Link>
+            <a href="/r6"><p>Rainbow Six</p></a>
           </div>
         </div>
         <div class="product">
@@ -111,7 +111,7 @@ export default function RegisterPage() {
           />
             
             <br />
-            <Link to="/MLBB"><p>Mobile Legends</p></Link>
+            <a href="MLBB"><p>Mobile Legends</p></a>
           </div>
         </div>
         <div class="product">
@@ -125,7 +125,7 @@ export default function RegisterPage() {
             />
               
               <br />
-              <Link to="/LOL"><p>League of Legends</p></Link>
+              <a href="LOL"><p>League of Legends</p></a>
             </div>
         </div>
 
