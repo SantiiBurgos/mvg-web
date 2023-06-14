@@ -18,6 +18,7 @@
 import React from "react";
 import classnames from "classnames";
 import './styles.css';
+import { Link } from "react-router-dom";
 
 // reactstrap components
 import {
@@ -96,7 +97,7 @@ export default function RegisterPage() {
           />
 
             <br />
-            <a href="r6"><p>Rainbow Six</p></a>
+            <Link to="/r6"><p>Rainbow Six</p></Link>
           </div>
         </div>
         <div class="product">
@@ -110,7 +111,7 @@ export default function RegisterPage() {
           />
             
             <br />
-            <a href="MLBB"><p>Mobile Legends</p></a>
+            <Link to="/MLBB"><p>Mobile Legends</p></Link>
           </div>
         </div>
         <div class="product">
@@ -124,7 +125,7 @@ export default function RegisterPage() {
             />
               
               <br />
-              <a href="LOL"><p>League of Legends</p></a>
+              <Link to="/LOL"><p>League of Legends</p></Link>
             </div>
         </div>
 
