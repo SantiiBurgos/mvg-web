@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.8bf9bcf4.css",
-    "main.js": "/static/js/main.a632d4f8.js",
+    "main.css": "/static/css/main.c72cb4f5.css",
+    "main.js": "/static/js/main.3aac90da.js",
+    "static/media/2022web.webp": "/static/media/2022web.c96acac7012d80b1321b.webp",
     "static/media/2022.jpg": "/static/media/2022.db916f4088b661415c8c.jpg",
-    "static/media/t4.jpg": "/static/media/t4.56048f3ddb8141bc37a0.jpg",
     "static/media/DSC03671.jpg": "/static/media/DSC03671.0db991b25f6b7a7bb2db.jpg",
     "static/media/DSC07358.jpg": "/static/media/DSC07358.14a2f5d238930dd60778.jpg",
-    "static/media/t3.jpg": "/static/media/t3.0ea2d1af06dfbffd6e5d.jpg",
-    "static/media/IMG_1095.jpg": "/static/media/IMG_1095.203ca88e7eff0e41e847.jpg",
+    "static/media/MLBB.jpg": "/static/media/MLBB.73415e02b2f99860031b.jpg",
     "static/media/IMG_7810.jpg": "/static/media/IMG_7810.d2fe2f68a445542cfbf8.jpg",
-    "static/media/t2.jpg": "/static/media/t2.446934ac0728a53d4c32.jpg",
+    "static/media/FREEFIRE.jpg": "/static/media/FREEFIRE.af65171f4d92338651ca.jpg",
+    "static/media/LOL.jpg": "/static/media/LOL.d6924ae51e3f1674e4fc.jpg",
+    "static/media/TIENDA11.jpg": "/static/media/TIENDA11.12d83018bc04c0f35d64.jpg",
+    "static/media/R6.jpg": "/static/media/R6.77258e198d37f822c774.jpg",
     "static/media/IMG_2996.jpg": "/static/media/IMG_2996.519d625484cc358384ba.jpg",
     "static/media/square-purple-1.png": "/static/media/square-purple-1.ed3a5e3801e35e68ab23.png",
     "static/media/2020.jpg": "/static/media/2020.d69fb5a6c38e349bca73.jpg",
@@ -43,14 +45,14 @@
     "static/media/etherum.png": "/static/media/etherum.628f765f05b74595f06a.png",
     "static/media/dots.png": "/static/media/dots.1e305f981d41a2c30adb.png",
     "static/media/2017.jpg": "/static/media/2017.086fec13f2cac5cc9a78.jpg",
+    "static/media/MLBBCard.webp": "/static/media/MLBBCard.b8595986b96d8592ae8e.webp",
     "static/media/2018.jpg": "/static/media/2018.a4b97a8b0122907c01d4.jpg",
-    "static/media/t1.JPG": "/static/media/t1.8aae3ad19a2db552c593.JPG",
+    "static/media/LOLCard.webp": "/static/media/LOLCard.7997e5950942f4a7b527.webp",
+    "static/media/FFCard.webp": "/static/media/FFCard.db92bca5de1946f31c46.webp",
+    "static/media/R6Card.webp": "/static/media/R6Card.fe7d4dc3d1791e4b3858.webp",
     "static/media/blob.png": "/static/media/blob.e39506780c69b0fd8920.png",
     "static/media/r6_w.webp": "/static/media/r6_w.b9392bf1ac43f361abb8.webp",
-    "static/media/mlbbTeam.jpg": "/static/media/mlbbTeam.244a50624c3633b53a71.jpg",
     "static/media/lol.webp": "/static/media/lol.a18285252b4bd0bf1db1.webp",
-    "static/media/lolCard2.webp": "/static/media/lolCard2.1e4a4d45cad6ff62433b.webp",
-    "static/media/freefireTeam.jpg": "/static/media/freefireTeam.b3c6b67d0d73eb86b010.jpg",
     "static/media/2019.jpg": "/static/media/2019.644e512c802cf7fc4cd8.jpg",
     "static/media/lora.jpg": "/static/media/lora.47bdc98a432e80ad8a55.jpg",
     "static/media/chester-wade.jpg": "/static/media/chester-wade.e891184f2ebb6f4f9691.jpg",
@@ -84,7 +86,7 @@
     "static/media/backgroundNextMatches.webp": "/static/media/backgroundNextMatches.56215ed171274c4b61fd.webp"
   },
   "entrypoints": [
-    "static/css/main.8bf9bcf4.css",
-    "static/js/main.a632d4f8.js"
+    "static/css/main.c72cb4f5.css",
+    "static/js/main.3aac90da.js"
   ]
 }
