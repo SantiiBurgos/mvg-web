@@ -93,7 +93,7 @@ export default function RegisterPage() {
           />
           <div>
             <img width={300}
-            src={require("assets/img/t1.JPG")}
+            src={require("assets/img/R6Card.webp")}
           />
 
             <br />
@@ -107,7 +107,7 @@ export default function RegisterPage() {
           />
           <div>
           <img width={300}
-            src={require("assets/img/mlbbTeam.jpg")}
+            src={require("assets/img/MLBBCard.webp")}
           />
             
             <br />
@@ -121,7 +121,7 @@ export default function RegisterPage() {
             />
             <div>
             <img width={300}
-              src={require("assets/img/lolCard2.webp")}
+              src={require("assets/img/LOLCard.webp")}
             />
               
               <br />
@@ -136,7 +136,7 @@ export default function RegisterPage() {
             />
             <div>
             <img width={300}
-              src={require("assets/img/freefireTeam.jpg")}
+              src={require("assets/img/FFCard.webp")}
             />
               
               <br />

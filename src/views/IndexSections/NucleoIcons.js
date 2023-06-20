@@ -35,25 +35,10 @@ export default function NucleoIcons() {
         </Row>
         <div className="blur-hover">
           <a href="/sobrenosotros">
-            <div className="icons-container blur-item on-screen mt-5">
-              {/* Center */}
-              <i className="icon tim-icons icon-trophy" />
-              {/* Right 1 */}
-              <i className="icon icon-sm tim-icons icon-spaceship" />
-              <i className="icon icon-sm tim-icons icon-heart-2" />
-              <i className="icon icon-sm tim-icons icon-headphones" />
-              {/* Right 2 */}
-              <i className="icon tim-icons icon-send" />
-              <i className="icon tim-icons icon-mobile" />
-              <i className="icon tim-icons icon-wifi" />
-              {/* Left 1 */}
-              <i className="icon icon-sm tim-icons icon-laptop" />
-              <i className="icon icon-sm tim-icons icon-controller" />
-              <i className="icon icon-sm tim-icons icon-satisfied" />
-              {/* Left 2 */}
-              <i className="icon tim-icons icon-world" />
-              <i className="icon tim-icons icon-square-pin" />
-              <i className="icon tim-icons icon-planet" />
+            <div className=" blur-item on-screen mt-5">
+            <img className="fotitoBlur"
+              src={require("assets/img/2022web.webp")}
+            />
             </div>
             <span className="blur-hidden h5 text-primary">
               Explorá nuestros logros

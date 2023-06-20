@@ -1,20 +1,3 @@
-/*!
-
-=========================================================
-* BLK Design System React - v1.2.1
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/blk-design-system-react
-* Copyright 2022 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/blk-design-system-react/blob/main/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
 import classnames from "classnames";
 // react plugin used to create datetimepicker
@@ -50,28 +33,21 @@ import {
 
 const carouselItems = [
   {
-    src: require("assets/img/t4.jpg"),
-    altText: "Slide 1",
-    caption: ""
+    src: require("assets/img/LOL.jpg")
   },
   {
-    src: require("assets/img/t2.jpg"),
-    altText: "Slide 2",
-    caption: ""
+    src: require("assets/img/MLBB.jpg")
   },
   {
-    src: require("assets/img/t3.jpg"),
-    altText: "Slide 3",
-    caption: ""
+    src: require("assets/img/R6.jpg")
+  },
+  {
+    src: require("assets/img/FREEFIRE.jpg")
   }
+
 ];
 
 export default function JavaScript() {
-  const [demoModal, setDemoModal] = React.useState(false);
-  const [miniModal, setMiniModal] = React.useState(false);
-  const [formModal, setFormModal] = React.useState(false);
-  const [emailFocus, setEmailFocus] = React.useState(false);
-  const [passwordFocus, setPasswordFocus] = React.useState(false);
   return (
     <div className="section section-javascript" id="javascriptComponents">
       <img alt="..." className="path" src={require("assets/img/path5.png")} />
@@ -93,7 +69,7 @@ export default function JavaScript() {
                 <img
                   alt="..."
                   className="img-fluid floating"
-                  src={require("assets/img/IMG_1095.jpg")}
+                  src={require("assets/img/TIENDA11.jpg")}
                 />
                 
               </Col>
@@ -172,11 +148,10 @@ export default function JavaScript() {
                 Equipos
               </Button>
             </Col>
-            <Col lg="6">
+            <Col lg="5">
               <UncontrolledCarousel
                 items={carouselItems}
-                indicators={false}
-                autoPlay={true}
+                indicators={true}
               />
             </Col>
           </Row>

@@ -51,7 +51,7 @@ export default function Index() {
         <PageHeader />
         <div className="main">
           <JavaScript />
-          <Examples/>
+          {/* <Examples/>*/}
           <NucleoIcons />
           <Download />
         </div>
