@@ -115,7 +115,7 @@ export default function ProfilePage() {
 
 
             <Slider {...settings}>
-            <div class="cardLogros">
+            <div class="cardLogros ">
       <div class="cardLogros-content">
         <h2 class="cardLogros-titel"> <b>2016</b></h2>
         <p class="cardLogros-description">
