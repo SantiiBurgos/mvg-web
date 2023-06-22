@@ -73,6 +73,11 @@ export default function Footer() {
                   Manual de marca
                 </NavLink>
               </NavItem>
+              <NavItem>
+                <NavLink href="https://drive.google.com/drive/folders/1tyT9gWsumvJBHM4klmgot3IIlhW8O__M">
+                  Logos
+                </NavLink>
+              </NavItem>
               
             </Nav>
           </Col>
@@ -115,6 +120,45 @@ export default function Footer() {
               </Button>
               <UncontrolledTooltip delay={0} target="tooltip318450378">
                 @malvinas_gaming
+              </UncontrolledTooltip>
+              
+              <Button
+                className="btn-icon btn-neutral btn-round btn-simple"
+                color="default"
+                href="https://www.tiktok.com/@malvinasgaming"
+                id="tooltip318450373"
+                target="_blank"
+              >
+                <i className="fab fa-tiktok" />
+              </Button>
+              <UncontrolledTooltip delay={0} target="tooltip318450373">
+                @malvinasgaming
+              </UncontrolledTooltip>
+
+              <Button
+                className="btn-icon btn-neutral btn-round btn-simple"
+                color="default"
+                href="https://www.linkedin.com/company/malvinasgaming/"
+                id="tooltip318450376"
+                target="_blank"
+              >
+                <i className="fab fa-linkedin" />
+              </Button>
+              <UncontrolledTooltip delay={0} target="tooltip318450376">
+               /malvinasgaming
+              </UncontrolledTooltip>
+
+              <Button
+                className="btn-icon btn-neutral btn-round btn-simple"
+                color="default"
+                href="https://www.youtube.com/@MalvinasGaming"
+                id="tooltip3184503763"
+                target="_blank"
+              >
+                <i className="fab fa-youtube" />
+              </Button>
+              <UncontrolledTooltip delay={0} target="tooltip3184503763">
+               @MalvinasGaming
               </UncontrolledTooltip>
             </div>
           </Col>

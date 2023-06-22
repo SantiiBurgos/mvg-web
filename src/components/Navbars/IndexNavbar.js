@@ -178,6 +178,32 @@ export default function IndexNavbar() {
               </NavLink>
             </NavItem>
             
+            <NavItem className="p-0">
+              <NavLink
+                data-placement="bottom"
+                href="https://www.tiktok.com/@malvinasgaming"
+                rel="noopener noreferrer"
+                target="_blank"
+                title="Seguinos en TikTok"
+              >
+                <i className="fab fa-tiktok" />
+                <p className="d-lg-none d-xl-none">TikTok</p>
+              </NavLink>
+            </NavItem>
+
+            <NavItem className="p-0">
+              <NavLink
+                data-placement="bottom"
+                href="https://www.linkedin.com/company/malvinasgaming/"
+                rel="noopener noreferrer"
+                target="_blank"
+                title="Seguinos en Linkedin"
+              >
+                <i className="fab fa-linkedin" />
+                <p className="d-lg-none d-xl-none">Linkedin</p>
+              </NavLink>
+            </NavItem>
+            
           </Nav>
         </Collapse>
       </Container>
