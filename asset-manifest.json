@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c72cb4f5.css",
-    "main.js": "/static/js/main.c4796167.js",
+    "main.css": "/static/css/main.c0cb556e.css",
+    "main.js": "/static/js/main.4b5241b6.js",
     "static/media/2022web.webp": "/static/media/2022web.c96acac7012d80b1321b.webp",
     "static/media/2022.jpg": "/static/media/2022.db916f4088b661415c8c.jpg",
     "static/media/DSC03671.jpg": "/static/media/DSC03671.0db991b25f6b7a7bb2db.jpg",
@@ -10,15 +10,20 @@
     "static/media/IMG_7810.jpg": "/static/media/IMG_7810.d2fe2f68a445542cfbf8.jpg",
     "static/media/FREEFIRE.jpg": "/static/media/FREEFIRE.af65171f4d92338651ca.jpg",
     "static/media/LOL.jpg": "/static/media/LOL.d6924ae51e3f1674e4fc.jpg",
+    "static/media/2020Af.jpg": "/static/media/2020Af.7e28ae317b49a01d18c2.jpg",
     "static/media/TIENDA11.jpg": "/static/media/TIENDA11.12d83018bc04c0f35d64.jpg",
     "static/media/R6.jpg": "/static/media/R6.77258e198d37f822c774.jpg",
     "static/media/IMG_2996.jpg": "/static/media/IMG_2996.519d625484cc358384ba.jpg",
+    "static/media/2021Af.jpg": "/static/media/2021Af.9323f3a379efec6cee00.jpg",
     "static/media/square-purple-1.png": "/static/media/square-purple-1.ed3a5e3801e35e68ab23.png",
+    "static/media/2022Af.jpg": "/static/media/2022Af.ff0aaab91991c94746b9.jpg",
     "static/media/2020.jpg": "/static/media/2020.d69fb5a6c38e349bca73.jpg",
+    "static/media/2017Af.jpg": "/static/media/2017Af.420e4dc9326ed545fc4c.jpg",
     "static/media/square4.png": "/static/media/square4.b0072563cab16ef45d81.png",
     "static/media/square1.png": "/static/media/square1.082ea17aaf44aed9868a.png",
     "static/media/square3.png": "/static/media/square3.235ea41b7cee0696448d.png",
     "static/media/square2.png": "/static/media/square2.8ce0f9b6a9f216ada045.png",
+    "static/media/2016Af.jpg": "/static/media/2016Af.8b842efcb4f875ed0c78.jpg",
     "static/media/square5.png": "/static/media/square5.16283001f5a086113265.png",
     "static/media/darkFoto.png": "/static/media/darkFoto.049a2cd26a85856a45e6.png",
     "static/media/luizinho.webp": "/static/media/luizinho.c2cfe9775e1ab951b86c.webp",
@@ -29,6 +34,7 @@
     "static/media/kaefe4.webp": "/static/media/kaefe4.752ef04d0c50b1c516eb.webp",
     "static/media/nitro2.webp": "/static/media/nitro2.eaaad95537dfc48a6de5.webp",
     "static/media/ragnar2.webp": "/static/media/ragnar2.2783602920c8121336d0.webp",
+    "static/media/2018Af.jpg": "/static/media/2018Af.e0e13fe823389e10210d.jpg",
     "static/media/2016.jpg": "/static/media/2016.3e2ef637d1417f0b9784.jpg",
     "static/media/Neadz.webp": "/static/media/Neadz.3405c4de234f1053baac.webp",
     "static/media/Lyg.webp": "/static/media/Lyg.d5433d2d6e05b31d23ed.webp",
@@ -36,6 +42,7 @@
     "static/media/ripp.png": "/static/media/ripp.c59f60238fbadc39977b.png",
     "static/media/shuun.webp": "/static/media/shuun.324982dcd2da91b1bd49.webp",
     "static/media/teex.webp": "/static/media/teex.6f9cb2f65a67ea3ab7ef.webp",
+    "static/media/2019Af.jpg": "/static/media/2019Af.cfb8b9e2f2fdf9b89010.jpg",
     "static/media/estarosa.webp": "/static/media/estarosa.1868ac19e30ef8fb7dd1.webp",
     "static/media/nightFoto.png": "/static/media/nightFoto.e6a30d27482b2b409f71.png",
     "static/media/bitcoin.png": "/static/media/bitcoin.47422beaa7310ef04777.png",
@@ -86,7 +93,7 @@
     "static/media/backgroundNextMatches.webp": "/static/media/backgroundNextMatches.56215ed171274c4b61fd.webp"
   },
   "entrypoints": [
-    "static/css/main.c72cb4f5.css",
-    "static/js/main.c4796167.js"
+    "static/css/main.c0cb556e.css",
+    "static/js/main.4b5241b6.js"
   ]
 }
