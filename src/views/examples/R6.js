@@ -83,7 +83,7 @@ export default function R6() {
 
 
       
-      <div class="list">
+      <div class="list2">
         
 
       <div class="contenedor">
@@ -138,6 +138,10 @@ export default function R6() {
         </div>
       </div>
       </div>
+      </div>
+
+      <div class="list">
+
 
       <div class="contenedor">
         <div class="perfil-contenedor5">
@@ -171,6 +175,42 @@ export default function R6() {
 
               <div class="icons">
                 <i class="bx bxl-twitter" onClick={() => redirectTo('https://twitter.com/Nitro_R6')}></i>
+              </div>
+            </div>
+        </div>
+      </div>
+      </div>
+
+      <div class="contenedor">
+        <div class="perfil-contenedor7">
+          <div class="perfil-wrapper effect-wrap">
+            
+            <div class="perfil-carta">
+              <img src={require("assets/img/Flag_of_Argentina.svg.webp")} />
+
+              <h2>AKcg (coach)</h2>
+              <h4>Caio Landim Suyama</h4>
+
+              <div class="icons">
+                <i class="bx bxl-twitter" onClick={() => redirectTo('https://twitter.com/AKcgR6')}></i>
+              </div>
+            </div>
+        </div>
+      </div>
+      </div>
+
+      <div class="contenedor">
+        <div class="perfil-contenedor6">
+          <div class="perfil-wrapper effect-wrap">
+            
+            <div class="perfil-carta">
+              <img src={require("assets/img/Flag_of_Argentina.svg.webp")} />
+
+              <h2>Rules (coach)</h2>
+              <h4>Lucas Thiago Perez</h4>
+
+              <div class="icons">
+                <i class="bx bxl-twitter" onClick={() => redirectTo('https://twitter.com/RulesR6')}></i>
               </div>
             </div>
         </div>

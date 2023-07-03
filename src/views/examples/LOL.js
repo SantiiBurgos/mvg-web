@@ -159,6 +159,8 @@ export default function LOL() {
         </div>
       </div>
       </div>
+      </div>
+      <div class="list2">
 
       <div class="contenedor">
         <div class="perfil-contenedorLol5">
@@ -173,6 +175,44 @@ export default function LOL() {
               <div class="icons">
                 <i class="bx bxl-twitter" onClick={() => redirectTo('https://twitter.com/1lyg1')}></i>
                 <i class="bx bxl-instagram" onClick={() => redirectTo('https://www.instagram.com/diegoo.ulloaa')}></i>
+              </div>
+            </div>
+        </div>
+      </div>
+      </div>
+
+      <div class="contenedor">
+        <div class="perfil-contenedorLol6">
+          <div class="perfil-wrapper effect-wrap">
+            
+            <div class="perfil-carta">
+              <img src={require("assets/img/Flag_of_Brazil.svg.webp")} />
+
+              <h2>Mad</h2>
+              <h4>Mateus Rafael <br></br> Mathias (coach)</h4>
+
+              <div class="icons">
+                <i class="bx bxl-twitter" onClick={() => redirectTo('https://twitter.com/maadge1')}></i>
+                <i class="bx bxl-instagram" onClick={() => redirectTo('https://www.instagram.com/madge.lol/')}></i>
+              </div>
+            </div>
+        </div>
+      </div>
+      </div>
+
+      <div class="contenedor">
+        <div class="perfil-contenedorLol7">
+          <div class="perfil-wrapper effect-wrap">
+            
+            <div class="perfil-carta">
+              <img src={require("assets/img/Flag_of_Brazil.svg.webp")} />
+
+              <h2>Machado</h2>
+              <h4>Gabriel Yps <br></br> Machado (analista)</h4>
+
+              <div class="icons">
+                <i class="bx bxl-twitter" onClick={() => redirectTo('https://twitter.com/machado7k')}></i>
+                
               </div>
             </div>
         </div>
