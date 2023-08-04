@@ -1,14 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.447694ba.css",
-    "main.js": "/static/js/main.2633c5be.js",
+    "main.css": "/static/css/main.172aff33.css",
+    "main.js": "/static/js/main.69b54c15.js",
     "static/media/2022web.webp": "/static/media/2022web.c96acac7012d80b1321b.webp",
     "static/media/2022.jpg": "/static/media/2022.db916f4088b661415c8c.jpg",
     "static/media/DSC07358.jpg": "/static/media/DSC07358.14a2f5d238930dd60778.jpg",
+    "static/media/noticia0.webp": "/static/media/noticia0.47dc408eb7dac38d939c.webp",
     "static/media/MLBB.jpg": "/static/media/MLBB.73415e02b2f99860031b.jpg",
+    "static/media/FOTO PORTADA2.jpg": "/static/media/FOTO PORTADA2.907e771c1c3ff0f4a57c.jpg",
     "static/media/FREEFIRE.jpg": "/static/media/FREEFIRE.af65171f4d92338651ca.jpg",
     "static/media/noticia3.webp": "/static/media/noticia3.2d81b4c0339a5de99a03.webp",
     "static/media/LOL.jpg": "/static/media/LOL.d6924ae51e3f1674e4fc.jpg",
+    "static/media/FOTO PORTADA.jpg": "/static/media/FOTO PORTADA.e38a90713a8d548dbcd3.jpg",
     "static/media/2020Af.jpg": "/static/media/2020Af.7e28ae317b49a01d18c2.jpg",
     "static/media/TIENDA11.jpg": "/static/media/TIENDA11.12d83018bc04c0f35d64.jpg",
     "static/media/R6.jpg": "/static/media/R6.77258e198d37f822c774.jpg",
@@ -97,7 +100,7 @@
     "static/media/backgroundNextMatches.webp": "/static/media/backgroundNextMatches.56215ed171274c4b61fd.webp"
   },
   "entrypoints": [
-    "static/css/main.447694ba.css",
-    "static/js/main.2633c5be.js"
+    "static/css/main.172aff33.css",
+    "static/js/main.69b54c15.js"
   ]
 }
