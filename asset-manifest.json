@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.172aff33.css",
-    "main.js": "/static/js/main.69b54c15.js",
+    "main.js": "/static/js/main.8bd95d8f.js",
     "static/media/2022web.webp": "/static/media/2022web.c96acac7012d80b1321b.webp",
     "static/media/2022.jpg": "/static/media/2022.db916f4088b661415c8c.jpg",
     "static/media/DSC07358.jpg": "/static/media/DSC07358.14a2f5d238930dd60778.jpg",
@@ -28,6 +28,7 @@
     "static/media/square2.png": "/static/media/square2.8ce0f9b6a9f216ada045.png",
     "static/media/2016Af.jpg": "/static/media/2016Af.8b842efcb4f875ed0c78.jpg",
     "static/media/square5.png": "/static/media/square5.16283001f5a086113265.png",
+    "static/media/noticia3portada.webp": "/static/media/noticia3portada.c9730b0ef44583c8cdd5.webp",
     "static/media/darkFoto.png": "/static/media/darkFoto.049a2cd26a85856a45e6.png",
     "static/media/luizinho.webp": "/static/media/luizinho.c2cfe9775e1ab951b86c.webp",
     "static/media/viituuu.webp": "/static/media/viituuu.dc03fc15d973b80d72c0.webp",
@@ -54,6 +55,7 @@
     "static/media/rules.webp": "/static/media/rules.5ddd0744e4d0e3fb51f1.webp",
     "static/media/asta.webp": "/static/media/asta.87fb8000429034f14bdb.webp",
     "static/media/machado.webp": "/static/media/machado.36ebc5463bb2a8ce38d1.webp",
+    "static/media/noticia3cuerpo.webp": "/static/media/noticia3cuerpo.9e0e4d911ac44b3b2ade.webp",
     "static/media/etherum.png": "/static/media/etherum.628f765f05b74595f06a.png",
     "static/media/mad.webp": "/static/media/mad.9ab52d12fb77f378de8f.webp",
     "static/media/dots.png": "/static/media/dots.1e305f981d41a2c30adb.png",
@@ -101,6 +103,6 @@
   },
   "entrypoints": [
     "static/css/main.172aff33.css",
-    "static/js/main.69b54c15.js"
+    "static/js/main.8bd95d8f.js"
   ]
 }
