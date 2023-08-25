@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.172aff33.css",
-    "main.js": "/static/js/main.6124f94b.js",
+    "main.js": "/static/js/main.b6c924cb.js",
     "static/media/2022web.webp": "/static/media/2022web.c96acac7012d80b1321b.webp",
     "static/media/2022.jpg": "/static/media/2022.db916f4088b661415c8c.jpg",
     "static/media/DSC07358.jpg": "/static/media/DSC07358.14a2f5d238930dd60778.jpg",
@@ -18,12 +18,14 @@
     "static/media/2020.jpg": "/static/media/2020.d69fb5a6c38e349bca73.jpg",
     "static/media/2017Af.jpg": "/static/media/2017Af.420e4dc9326ed545fc4c.jpg",
     "static/media/square4.png": "/static/media/square4.b0072563cab16ef45d81.png",
+    "static/media/noticia1portada.webp": "/static/media/noticia1portada.d1ad6ea6aade80ab1359.webp",
     "static/media/square1.png": "/static/media/square1.082ea17aaf44aed9868a.png",
     "static/media/square3.png": "/static/media/square3.235ea41b7cee0696448d.png",
     "static/media/square2.png": "/static/media/square2.8ce0f9b6a9f216ada045.png",
+    "static/media/FFL.webp": "/static/media/FFL.801328749003d0f8701d.webp",
+    "static/media/FFRS.webp": "/static/media/FFRS.230e18473d1dc554b031.webp",
     "static/media/2016Af.jpg": "/static/media/2016Af.8b842efcb4f875ed0c78.jpg",
     "static/media/square5.png": "/static/media/square5.16283001f5a086113265.png",
-    "static/media/noticia1portada.webp": "/static/media/noticia1portada.c9730b0ef44583c8cdd5.webp",
     "static/media/darkFoto.png": "/static/media/darkFoto.049a2cd26a85856a45e6.png",
     "static/media/luizinho.webp": "/static/media/luizinho.c2cfe9775e1ab951b86c.webp",
     "static/media/viituuu.webp": "/static/media/viituuu.dc03fc15d973b80d72c0.webp",
@@ -51,7 +53,6 @@
     "static/media/rules.webp": "/static/media/rules.5ddd0744e4d0e3fb51f1.webp",
     "static/media/asta.webp": "/static/media/asta.87fb8000429034f14bdb.webp",
     "static/media/machado.webp": "/static/media/machado.36ebc5463bb2a8ce38d1.webp",
-    "static/media/noticia3cuerpo.webp": "/static/media/noticia3cuerpo.9e0e4d911ac44b3b2ade.webp",
     "static/media/etherum.png": "/static/media/etherum.628f765f05b74595f06a.png",
     "static/media/mad.webp": "/static/media/mad.9ab52d12fb77f378de8f.webp",
     "static/media/dots.png": "/static/media/dots.1e305f981d41a2c30adb.png",
@@ -66,6 +67,7 @@
     "static/media/lol.webp": "/static/media/lol.a18285252b4bd0bf1db1.webp",
     "static/media/2019.jpg": "/static/media/2019.644e512c802cf7fc4cd8.jpg",
     "static/media/lora.jpg": "/static/media/lora.47bdc98a432e80ad8a55.jpg",
+    "static/media/FFRSCard.webp": "/static/media/FFRSCard.7f59ce68339373fecf7c.webp",
     "static/media/chester-wade.jpg": "/static/media/chester-wade.e891184f2ebb6f4f9691.jpg",
     "static/media/path1.png": "/static/media/path1.a0d20b6041dada5ed4fd.png",
     "static/media/banco.webp": "/static/media/banco.420df689e6ce6819c61b.webp",
@@ -80,7 +82,6 @@
     "static/media/v (5).png": "/static/media/v (5).e6af2728a177d130dad7.png",
     "static/media/png color.png": "/static/media/png color.7437738c869be1001816.png",
     "static/media/nucleo.eot": "/static/media/nucleo.bd5cce8bf40be5947637.eot",
-    "static/media/freefire.png": "/static/media/freefire.145527dfcb8e1939f27a.png",
     "static/media/nucleo.ttf": "/static/media/nucleo.35b08447277ca7bf9f09.ttf",
     "static/media/Flag_of_Argentina.svg.webp": "/static/media/Flag_of_Argentina.svg.4275708276871ebd80d5.webp",
     "static/media/patrat.png": "/static/media/patrat.aeec33e42c0e3d453dd0.png",
@@ -99,6 +100,6 @@
   },
   "entrypoints": [
     "static/css/main.172aff33.css",
-    "static/js/main.6124f94b.js"
+    "static/js/main.b6c924cb.js"
   ]
 }
