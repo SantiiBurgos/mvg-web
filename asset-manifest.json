@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.172aff33.css",
-    "main.js": "/static/js/main.b6c924cb.js",
+    "main.js": "/static/js/main.df7c533c.js",
     "static/media/2022web.webp": "/static/media/2022web.c96acac7012d80b1321b.webp",
     "static/media/2022.jpg": "/static/media/2022.db916f4088b661415c8c.jpg",
     "static/media/DSC07358.jpg": "/static/media/DSC07358.14a2f5d238930dd60778.jpg",
@@ -13,9 +13,9 @@
     "static/media/R6.jpg": "/static/media/R6.77258e198d37f822c774.jpg",
     "static/media/2021Af.jpg": "/static/media/2021Af.9323f3a379efec6cee00.jpg",
     "static/media/square-purple-1.png": "/static/media/square-purple-1.ed3a5e3801e35e68ab23.png",
-    "static/media/noticia3portada.webp": "/static/media/noticia3portada.86be3e48c6fffa941400.webp",
     "static/media/2022Af.jpg": "/static/media/2022Af.ff0aaab91991c94746b9.jpg",
     "static/media/2020.jpg": "/static/media/2020.d69fb5a6c38e349bca73.jpg",
+    "static/media/noticia3portada.webp": "/static/media/noticia3portada.56005fbd9b8b21900cfc.webp",
     "static/media/2017Af.jpg": "/static/media/2017Af.420e4dc9326ed545fc4c.jpg",
     "static/media/square4.png": "/static/media/square4.b0072563cab16ef45d81.png",
     "static/media/noticia1portada.webp": "/static/media/noticia1portada.d1ad6ea6aade80ab1359.webp",
@@ -100,6 +100,6 @@
   },
   "entrypoints": [
     "static/css/main.172aff33.css",
-    "static/js/main.b6c924cb.js"
+    "static/js/main.df7c533c.js"
   ]
 }
