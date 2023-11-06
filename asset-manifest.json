@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.172aff33.css",
-    "main.js": "/static/js/main.a78ecf54.js",
+    "main.js": "/static/js/main.73d49e86.js",
     "static/media/2022web.webp": "/static/media/2022web.c96acac7012d80b1321b.webp",
     "static/media/2nota8.jpg": "/static/media/2nota8.50d8095653391d41a750.jpg",
     "static/media/2022.jpg": "/static/media/2022.db916f4088b661415c8c.jpg",
@@ -104,6 +104,6 @@
   },
   "entrypoints": [
     "static/css/main.172aff33.css",
-    "static/js/main.a78ecf54.js"
+    "static/js/main.73d49e86.js"
   ]
 }
